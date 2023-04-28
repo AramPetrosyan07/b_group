@@ -1,0 +1,32 @@
+.common{
+    width: 100%;
+}
+.styleGuide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E3F1E9;
+    height: 467px;
+}
+.styleGuide div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 203px;
+    margin-bottom: 206px; */
+}
+.rightPattern{
+    margin-right: 129px;
+}
+.leftPattern{
+    margin-left: 140px;
+}
+.styleGuideP{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+color: #274C5B;
+}
