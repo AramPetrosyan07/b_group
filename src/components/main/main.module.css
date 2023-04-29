@@ -1,0 +1,193 @@
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.image_block img{
+    width: 100%;
+}
+
+.image_block{
+    position: relative;
+}
+
+.child_block{
+    display: flex;
+    width: 90%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.description_block_one {
+   width: 70%;
+   position: relative;
+   height: 250px;
+   background-color: white;
+   border-radius: 10px 0px 0px 10px;
+   box-shadow: 0px 14px 36px rgba(204, 204, 204, 0.25);
+}
+
+.description_children_one{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.description_block_two{
+    width: 40%;
+    height: 250px;
+    background: #FAFAFA;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    box-shadow: 0px 14px 36px rgba(204, 204, 204, 0.25);
+}
+
+
+
+.description_children_two{
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.description_children_two p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 165.4%;
+    color: #525C60;
+
+}
+
+.description_children_two span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: #274C5B;
+    padding-right: 25px;
+
+}
+
+.description_block_one h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 82px;
+    color: #274C5B;
+}
+
+.description_block_one p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 165.4%;
+    color: #525C60;
+}
+
+
+
+
+/* About The Farm Style */
+
+
+
+.farm_block{
+    width: 60%;
+    margin: 180px auto;
+}
+
+
+.title_and_text h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+    color: #274C5B;
+    padding-bottom: 24px;
+}
+
+.title_and_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 165.4%;
+    color: #525C60;
+    padding-bottom: 50px;
+
+}
+
+.title_and_text img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.image_descr{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 165.4%;
+    color: #525C60;
+}
+
+/* How To Farm Style */
+
+.how_to_farm_title_text h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+    color: #274C5B;
+    padding-bottom: 24px;
+}
+
+.how_to_farm_title_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 165.4%;
+    color: #525C60;
+    padding-bottom: 50px;
+}
+
+
+/* Conclusion Style */
+
+
+.conclusion_title_and_text h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+    color: #274C5B;
+    padding-bottom: 24px;
+}
+
+.conclusion_title_and_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 165.4%;
+    color: #525C60;
+    padding-bottom: 50px;
+}
