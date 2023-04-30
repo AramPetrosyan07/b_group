@@ -2,6 +2,7 @@ import Logo from './images/Logo.svg';
 import Search from './images/Search.svg'
 import Cart from './images/Cart Icon.svg'
 import Baner from './images/Banner.jpg'
+import Headervector from './images/HeaderVector.svg'
 export default function HomeHeader() {
     return (<>
         <div className='Header'>
@@ -9,7 +10,7 @@ export default function HomeHeader() {
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li>Pages</li>
+                <li className='MenuHover'><img src={Headervector}/>Pages</li>
                 <li>Shop</li>
                 <li>Projects</li>
                 <li>News</li>
@@ -26,12 +27,23 @@ export default function HomeHeader() {
             <img className='BanerBackground' src={Baner} />
             <div className='BannerText'>
                 <p>100% Natural Food</p>
-                <span>Choose the best healthier way <br/> of life</span>
+                <span>Choose the best healthier way <br /> of life</span>
                 <div className='BanerBtn'></div>
 
             </div>
         </div>
-        <div className='OferrBaner'></div>
+
+        <div className='OferrBaner'>
+            <div className='leftBaner'>
+                <p>Natural!!</p>
+                <span>Get Garden <br/> Fresh Fruits</span>
+            </div>
+
+            <div className='rightBaner'>
+                <p>Offer!!</p>
+                <span>Get 10% off <br/> on Vegetables</span>
+            </div>
+        </div>
     </>
     )
 }

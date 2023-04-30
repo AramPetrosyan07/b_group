@@ -4,6 +4,16 @@
   box-sizing: border-box;
   list-style-type: none;
 }
+/* HomeHeader ~~CSS */
+@font-face {
+  font-family: Roboto;
+  src: url(/src/components/fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: Yellowtail;
+  src: url(/src/components/fonts/Yellowtail.ttf);
+}
 
 .Header {
   width: 100%;
@@ -37,6 +47,16 @@
   border-radius: 0px;
 }
 
+.Header ul :nth-child(3) {
+  position: relative;
+  left: 120px;
+}
+
+.Header ul :nth-child(3):hover .MenuHover img {
+  rotate: 360deg;
+  color: red;
+}
+
 .Header ul li {
   position: relative;
   height: 23px;
@@ -45,13 +65,26 @@
   top: 6px;
   width: 564px;
   height: 23px;
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 20px;
   line-height: 23px;
   color: #274C5B;
   cursor: pointer;
+}
+
+.MenuHover:hover img {
+  rotate: 180deg;
+  transition: 1s;
+}
+
+.MenuHover img {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  left: 68px;
+  top: 1px;
 }
 
 .Header ul li:hover {
@@ -82,9 +115,7 @@
 
 }
 
-/* .Header input:focus img{
-  width: 100%;
-} */
+
 .Cart {
   position: relative;
   cursor: pointer;
@@ -111,7 +142,7 @@
   position: relative;
   font-family: Roboto;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
@@ -170,8 +201,8 @@
 
 .Banner span {
   width: 530px;
-height: 246px;
-  font-family: 'Roboto';
+  height: 246px;
+  font-family: Roboto;
   font-size: 70px;
   font-weight: 800;
   line-height: 82px;
@@ -192,3 +223,108 @@ height: 246px;
   background-image: url(./components/images/Button.svg);
 
 }
+
+.OferrBaner {
+  position: absolute;
+  width: 1400.49px;
+  height: 367px;
+  top: 1156px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+}
+
+.leftBaner {
+  position: relative;
+  background-image: url(./components/images/OfferBaner1.svg);
+  width: 682.24px;
+  height: 367px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.leftBaner p {
+  position: relative;
+  width: 191px;
+  height: 49px;
+  font-family: Yellowtail;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 109px;
+  left: 54.88px;
+}
+
+.leftBaner span {
+  position: relative;
+  width: 197.63px;
+  height: 94px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  text-align: start;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  Top: 109px;
+  Left: 54.88px;
+}
+
+.rightBaner {
+  position: relative;
+  background-image: url(./components/images/OfferBaner2.svg);
+  width: 682.24px;
+  height: 367px;
+  left: 150px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.rightBaner p {
+  position: relative;
+  width: 191px;
+  height: 49px;
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #7EB693;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 109px;
+  left: 54.88px;
+}
+
+.rightBaner span {
+  position: relative;
+  width: 197.63px;
+  height: 94px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  color: #274C5B;
+  text-align: start;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  Top: 109px;
+  Left: 54.88px;
+}
+/* HomeBottom ~~CSS */
