@@ -94,13 +94,28 @@ display: -webkit-box;
 margin-right: auto;
 z-index: -1;
 }
+.btnDiv {
+    margin: 0 auto;
+    border: 1px solid green;
+    text-align: center;   
+}
+
+
 .btn {
     margin:0 auto;
     color: red;
     text-align: center;
+    color: #335B6B;
+    border: 1px solid #335B6B;
+    width: 220px;
+    height: 80px;
+    Gap:10px;
+    background: #F9F8F8;
+    border: 2px solid #335B6B;
+    border-radius: 16px;
 }
-.btnDiv {
-    margin: 0 auto;
-    border: 1px solid green;
-    text-align: center;
+.ArrowButtom {
+    position: relative;
+    bottom:-5px;
+    left: 10px;  
 }

@@ -3,21 +3,29 @@ import FruitPhoto from "../pictures/FruitPhoto.png";
 import MilkBottle from "../pictures/MilkBottle.png";
 import OnlineStore from "../pictures/OnlineStore.png";
 import Delivery from "../pictures/Delivery.png";
-
 // img center
 import Photo from "../pictures/Photo.png";
+// buttm
+import Aerrow from "../pictures/Aerrow.png";
+
+// Organic
+import Organic from "../pictures/OrganicAbout.png";
+import VideoIcon from "../pictures/VideoIcon.png";
 
 // css
 import fruitsStyles from "./Fruits.module.css";
 import directoryStyles from "./Directory.module.css";
 import HistoryStyles from "./History.module.css";
+import OrganicStyles from "./OrganicNews.module.css";
 
 const Services = () => {
   return (
-    <div className={fruitsStyles.peakcherGlobalDev}>
-      <div className={fruitsStyles.peakcherDev}>
+    <>
+      <div className={fruitsStyles.peakcherGlobalDev}>
         <img className={fruitsStyles.peakcherImg} src={FruitPhoto} />
-        <h1 className={fruitsStyles.peakcherText}>Services</h1>
+        <div className={fruitsStyles.peakcherDev}>
+          <h1 className={fruitsStyles.peakcherText}>Services</h1>
+        </div>
       </div>
 
       <div className={directoryStyles.container}>
@@ -91,9 +99,28 @@ const Services = () => {
         </div>
       </div>
       <div className={HistoryStyles.btnDiv}>
-        <button className={HistoryStyles.btn}>aaadsds</button>
+        <button className={HistoryStyles.btn}>
+          Explore More
+          <img src={Aerrow} className={HistoryStyles.ArrowButtom} />
+        </button>
       </div>
-    </div>
+      {/*  Organic */}
+      <div className={OrganicStyles.organParentDiv}>
+        <img src={Organic} className={OrganicStyles.bgImage} />
+        <div className={OrganicStyles.childDiv}>
+          <p className={OrganicStyles.mainP}>Organic Only</p>
+          <h1>Everyday Fresh & Clean</h1>
+          <p>
+            {" "}
+            Simply dummy text of the printing and typesetting industry. Lorem
+            had ceased to been the industry's standard dummy text ever since the
+          </p>
+          <button>
+            <img src={VideoIcon} />
+          </button>
+        </div>
+      </div>
+    </>
   );
 };
 
