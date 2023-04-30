@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { data } from "./database.js";
+import "./styles/reset.css";
+import "./styles/main.css";
+import { BigBanner } from "./components/BigBanner/BigBanner";
+import { PageCaption } from "./components/PageCaption/PageCaption.js";
+import { ExpertsList } from "./components/ExpertsList/ExpertsList.js";
 
+
+const { team } = data.pages;
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BigBanner caption={team.bannerCaption} />
+      <PageCaption subtitle={team.subtitle} title={team.title} text={team.text} />
+      <ExpertsList experts={team.experts} />
     </div>
   );
 }

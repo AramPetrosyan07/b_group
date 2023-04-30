@@ -1,0 +1,36 @@
+.pageCaption {
+   margin-top: 150px;
+   text-align: center;
+   max-width: 850px;
+}
+
+.title {
+   font-family: "Yellowtail";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2.25rem;
+   line-height: 136%;
+   color: #7eb693;
+}
+.subtitle {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 3.12rem;
+   line-height: 120%;
+   color: #274c5b;
+}
+.text {
+   line-height: 165%;
+   text-align: center;
+   margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+   .pageCaption {
+      margin-top: 50px;
+   }
+   .subtitle {
+      font-size: 2.12rem;
+   }
+}
