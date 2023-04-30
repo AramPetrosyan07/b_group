@@ -1,0 +1,19 @@
+.banner{
+    max-width: 1920px;
+    height: 450px;
+    
+}
+
+.banner img{
+    width: 100%;
+}
+
+.header{
+    color: #274C5B;
+    font-size: 70px;
+    line-height: 82px;
+    font-weight: 800;
+    margin-top: -230px;
+    text-transform: capitalize;
+    text-align: center;
+}
