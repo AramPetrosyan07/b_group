@@ -1,32 +1,116 @@
-.common{
-    width: 100%;
+.common {
+  width: 100%;
 }
-.styleGuide{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #E3F1E9;
-    height: 467px;
+.styleGuide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e3f1e9;
+  height: 250px;
 }
-.styleGuide div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-top: 203px;
-    margin-bottom: 206px; */
+.styleGuide div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.rightPattern{
-    margin-right: 129px;
+.rightPattern {
+  margin-right: 129px;
 }
-.leftPattern{
-    margin-left: 140px;
+.leftPattern {
+  margin-left: 140px;
 }
-.styleGuideP{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 59px;
-text-align: center;
-color: #274C5B;
+.styleGuideP {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #274c5b;
+}
+.colors {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorWord {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  color: #274c5b;
+  margin-right: 200px;
+}
+.blueDark div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #274c5b;
+  border-radius: 11px;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 120px;
+}
+.colorsDivs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-bottom: 55px;
+}
+.greenDark div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #7eb693;
+  border-radius: 11px;
+}
+.YellowDark div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #efd372;
+  border-radius: 11px;
+}
+.GrayDark div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #d4d4d4;
+  border-radius: 11px;
+}
+.WhiteDark div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #f9f8f8;
+  border-radius: 11px;
+}
+.GrayLight div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #eff6f1;
+  border-radius: 11px;
+}
+.BlackLight div {
+  width: 139px;
+  height: 148px;
+  margin-right: 40px;
+  background: #525c60;
+  border-radius: 11px;
+}
+.hex {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #274c5b;
+  margin-top: 16px;
+  margin-bottom: 55px;
 }
