@@ -47,6 +47,22 @@ const StyleGuide = () => {
             </div>
           </div>
         </div>
+
+        <div className="texts">
+          <div className="textDiv">
+            <p className="textStyle">Text Styles</p>
+          </div>
+          <div className="text">
+            <h1 className="h1">Display H1 Text</h1>
+            <h2 className="h2">Heading H2 Text</h2>
+            <h3 className="h3">Heading H3 Text</h3>
+            <h4 className="h4">Heading H4 Text</h4>
+            <h5 className="h5"> Heading H5 Text</h5>
+            <h6 className="h6">Heading H6 Text</h6>
+          </div>
+          <div>
+          </div>
+        </div>
       </div>
     </div>
   );
