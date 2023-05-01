@@ -193,3 +193,27 @@
   color: #274c5b;
   margin-bottom: 70px;
 }
+.paragraphs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+.paragr{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 41px;
+color: #274C5B;
+margin-left: 180px;
+}
+.p1{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 165.4%;
+margin-left: 130px;
+color: #525C60;
+}
