@@ -7,28 +7,31 @@ import raspberry from './images/raspberry.png';
 import orange from './images/orange.png';
 import Banner from './Banner/Banner';
 import Portfolio from './Portfolio/Portfolio';
-import { useEffect, useState } from 'react';
+import {v4 as uuidv4} from 'uuid'
+
 
 const images = [lemon, carrot, leaf, tommato, raspberry, orange];
 
 function App() {
-  const [image, setImage] = useState()
-
-  useEffect(()=>{
-    setImage(images)
     
-  },[])
-  
-
   return (
     <div className="App">
       <Banner />
-      {
-        image && image.map((img)=>{
-          return <Portfolio image={img} />
-        })
-      }
-        
+      <div className='container'>
+        {
+          images && images.map((image)=>{
+            return(
+              <Portfolio 
+                id = {uuidv4()}
+                key = {uuidv4()}
+                image={image} 
+              />
+               
+            )
+          })
+        }
+      </div>
+    
       
     </div>
   );

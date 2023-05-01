@@ -6,7 +6,9 @@ function Banner() {
   return (
     <div className={classes.banner}>
       <img src={banner} alt="banner" />
-      <h1 className={classes.header}>portfolio standard</h1>
+      <div className={classes.headerBlock}>
+        <h1 className={classes.header}>portfolio standard</h1>
+      </div>
     </div>
   )
 }
