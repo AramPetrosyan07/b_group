@@ -7,7 +7,7 @@
 .content {
   width: 90%;
   margin-top: 130px;
-  /* background-color: rgba(93, 72, 231, 0.295); */
+  margin-bottom: 130px;
   display: flex;
 }
 
@@ -55,7 +55,6 @@
   font-size: 18px;
   line-height: 165.4%;
   color: #525c60;
-  background-color: rgba(255, 0, 0, 0.253);
 }
 
 .text2 {
@@ -70,6 +69,7 @@
 .modernLeft,
 .modernRight {
   display: flex;
+  align-items: center;
 }
 
 .modernLeft {
@@ -125,8 +125,6 @@
 @media only screen and (max-width: 1900px) {
   .content {
     width: 90%;
-    margin-top: 130px;
-    background-color: rgba(93, 72, 231, 0.295);
     display: flex;
   }
 
@@ -148,7 +146,6 @@
     font-size: 50px;
     line-height: 59px;
     color: #274c5b;
-    background-color: rgba(255, 20, 145, 0.226);
   }
 
   .text,
@@ -161,7 +158,6 @@
     font-size: 18px;
     line-height: 165.4%;
     color: #525c60;
-    background-color: rgba(255, 0, 0, 0.253);
   }
 
   .modern {
@@ -171,12 +167,258 @@
   }
 
   .modern > div {
-    background-color: rgba(153, 50, 204, 0.226);
   }
   .modernLeft {
     margin-right: 0;
   }
   .modernRight {
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .content {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+  .right {
+    margin-top: 10px;
+    flex: 1;
+  }
+
+  .greenText {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 2vw;
+    color: #7eb693;
+  }
+
+  .title {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+
+  .text,
+  .text2 {
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    line-height: 1.9vw;
+    color: #525c60;
+  }
+
+  .text2 {
+    margin-top: 2vw;
+  }
+
+  .modern {
+    margin-top: 2vw;
+  }
+
+  .modernRight {
+    margin-top: 1vw;
+  }
+
+  .plant,
+  .tractor {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+
+  .modernText {
+    width: 60%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    color: #274c5b;
+  }
+
+  .btn {
+    width: 15vw;
+    height: 6vw;
+    margin-top: 2vw;
+    background: #274c5b;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .btn p {
+    font-weight: 600;
+    font-size: 1.4vw;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .left img {
+    width: 100%;
+  }
+
+  .greenText {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 2vw;
+    color: #7eb693;
+  }
+
+  .title {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
+  .text,
+  .text2 {
+    margin-top: 1vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    color: #525c60;
+  }
+
+  .text2 {
+    margin-top: 2vw;
+  }
+
+  .modern {
+    margin-top: 2vw;
+  }
+
+  .modernRight {
+    margin-top: 1vw;
+  }
+
+  .plant,
+  .tractor {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+
+  .modernText {
+    width: 60%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 3.5vw;
+    color: #274c5b;
+  }
+
+  .right > p {
+    text-align: center;
+  }
+
+  .text,
+  .text2 {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2vw;
+  }
+
+  .modern {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .modernLeft,
+  .modernRight {
+    display: flex;
+    align-items: center;
+  }
+
+  .modernLeft {
+    margin-right: 0;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .modernLeft > img {
+    margin-left: 15px;
+  }
+  .modernRight {
+    margin-top: 0;
+  }
+
+  .btn {
+    width: 25vw;
+    height: 6vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    background: #274c5b;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .btn p {
+    font-weight: 600;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .modern {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .btn {
+    width: 30vw;
+    height: 10vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    background: #274c5b;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .btn p {
+    font-weight: 600;
+    font-size: 2vw;
   }
 }
