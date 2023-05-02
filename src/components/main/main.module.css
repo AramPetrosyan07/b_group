@@ -98,14 +98,14 @@
 
 
 
-
 /* About The Farm Style */
 
 
 
 .farm_block{
     width: 60%;
-    margin: 180px auto;
+    margin: 0 auto;
+    padding-top: 180px;
 }
 
 
@@ -113,7 +113,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 3vw;
     line-height: 41px;
     color: #274C5B;
     padding-bottom: 24px;
@@ -126,8 +126,7 @@
     font-size: 1.1vw;
     line-height: 165.4%;
     color: #525C60;
-    padding-bottom: 50px;
-
+    padding-bottom: 20px;
 }
 
 .title_and_text img{
@@ -146,13 +145,20 @@
     color: #525C60;
 }
 
+
 /* How To Farm Style */
+
+
+.how_to_farm_content{
+    margin: auto;
+    width: 60%;
+}
 
 .how_to_farm_title_text h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 3vw;
     line-height: 41px;
     color: #274C5B;
     padding-bottom: 24px;
@@ -172,11 +178,17 @@
 /* Conclusion Style */
 
 
+.conclusion_content{
+    width: 60%;
+    margin: auto;
+    
+}
+
 .conclusion_title_and_text h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 3vw;
     line-height: 41px;
     color: #274C5B;
     padding-bottom: 24px;
