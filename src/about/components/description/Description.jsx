@@ -29,7 +29,7 @@ const Description = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div className={styles.firstContent}>
         <div className={styles.left}>
           <p className={styles.greenText}>Why Choose us?</p>
           <p className={styles.title}>

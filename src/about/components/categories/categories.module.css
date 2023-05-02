@@ -1,0 +1,80 @@
+.container {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #274c5b;
+}
+
+.content {
+  width: 72%;
+  margin-top: 190px;
+  margin-bottom: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 206, 209, 0.178);
+}
+
+.textContainer {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(255, 217, 0, 0.384);
+}
+
+.greenText {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #7eb693;
+}
+
+.title {
+  margin-top: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+}
+
+.imagesContainer {
+  width: 100%;
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.imageItem {
+  width: 335px;
+  height: 368px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.imageItem img {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.imagesTextContainer {
+  width: 100%;
+}
+
+.imgTitle {
+  margin-top: 24px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #ffffff;
+}

@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.content {
+.firstContent {
   width: 72%;
   margin-top: 190px;
   display: flex;
@@ -20,6 +20,9 @@
 
 .right {
   flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 127, 80, 0.247);
 }
 
 .greenText {
@@ -156,4 +159,107 @@
   line-height: 165.4%;
   text-align: center;
   color: #525c60;
+}
+
+@media only screen and (max-width: 1900px) {
+  .greenText {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7eb693;
+  }
+
+  .title {
+    width: 90%;
+    margin-top: 6px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    color: #274c5b;
+  }
+
+  .text {
+    width: 95%;
+    margin-top: 25px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525c60;
+    background-color: rgba(0, 250, 154, 0.37);
+  }
+
+  .right img {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .natiral,
+  .natiral2 {
+    width: 339px;
+    height: 81px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background: #ececec;
+    border-radius: 49px;
+  }
+
+  .natiral {
+    margin-top: 36px;
+  }
+
+  .natiral2 {
+    margin-top: 24px;
+  }
+
+  .greenCircle {
+    width: 15px;
+    height: 15px;
+    margin: 0 7px 0 27px;
+    border: 4px #7eb693 solid;
+    border-radius: 50px;
+  }
+
+  .naturalText {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274c5b;
+  }
+
+  .middleText {
+    width: 80%;
+    margin: 12px 0 0 60px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525c60;
+    background-color: red;
+  }
+
+  .freshItem {
+    width: 257px;
+    height: 335px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #ffffff;
+    border-radius: 30px;
+  }
 }
