@@ -1,0 +1,132 @@
+ 
+
+  /* left side */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.leftSideGlobalDiv {
+    /* width:25%;
+    margin: 0 auto;
+    z-index: 500; */
+}
+
+.leftSideChildDiv {
+    /* width: 100%;
+    border: 1px solid green;
+    z-index: 500; */
+}
+.leftSideDiv {
+    /* margin-bottom: 25px;
+    margin-right: -90px;
+    width: 100%; */
+}
+
+
+.leftSideGlobalDiv h3 {
+    /* text-align:right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #274B5A;
+    margin-left: 0px;
+    z-index: 5; */
+}
+
+.leftSideGlobalDiv p {
+    /* font-family: Open Sans;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #525C60;
+    z-index: 5; */
+  
+}
+
+.leftSideGlobalDiv img {
+  /* display: flex;
+  justify-content: flex-end;
+  display: -webkit-box;
+  margin-left: auto;
+  z-index: -1; */
+}
+
+/* center */
+.centerDiv  {
+    /* width:30%; */
+}
+/* right-side */
+/* .rightSideGlobalDiv {
+    width:30%;
+    margin: 0 auto;
+    z-index: 500;
+}
+
+.rightSideDiv {
+    margin-bottom: 25px;
+    margin-left: -60px;
+    
+ 
+}
+.rightSideDiv h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #274B5A;
+    z-index: 5;
+}
+
+.rightSideDiv  p {
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #525C60;
+    z-index: 5;
+    font-family: Open Sans;
+}
+.rightSideDiv img {
+display: flex;
+justify-content: flex-end;
+display: -webkit-box;
+margin-right: auto;
+z-index: -1;
+}
+.btnDiv {
+    margin: 0 auto;
+    border: 1px solid green;
+    text-align: center;   
+}
+
+
+.btn {
+    margin:0 auto;
+    color: red;
+    text-align: center;
+    color: #335B6B;
+    border: 1px solid #335B6B;
+    width: 220px;
+    height: 80px;
+    Gap:10px;
+    background: #F9F8F8;
+    border: 2px solid #335B6B;
+    border-radius: 16px;
+}
+.ArrowButtom {
+    position: relative;
+    bottom:-5px;
+    left: 10px;  
+} */
