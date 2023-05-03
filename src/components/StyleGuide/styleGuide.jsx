@@ -1,6 +1,7 @@
 import React from "react";
 import RightPattern from "../img/Pattern.png";
 import LeftPattern from "../img/Pattern2.png";
+import ArrowRight from "../img/arrow-right.png";
 import "./styleGuide.css";
 
 const StyleGuide = () => {
@@ -60,15 +61,69 @@ const StyleGuide = () => {
             <h5 className="h5"> Heading H5 Text</h5>
             <h6 className="h6">Heading H6 Text</h6>
           </div>
-          <div>
-          </div>
+          <div></div>
         </div>
         <div className="paragraphs">
           <p className="paragr">Paragraph</p>
           <p className="p1">
-            Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.
-          
+            Simply dummy text of the printing and typesetting industry. Lorem
+            had ceased to been the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley.established fact that a
+            reader will be distracted by the readable content of a page when
+            looking at its layout. The point of using Lorem Ipsum is that it has
+            a more-or-less normal distribution of letters, as opposed.
           </p>
+        </div>
+        <div className="paragraphs">
+          <p className="list">List</p>
+          <ul className="ul">
+            <li>
+              Publishing packages and web pageLorem Ipsum as their default
+            </li>
+            <li> Content here, content here', making it look like readable</li>
+            <li>Packages and web pageLorem Ipsum as their default</li>
+          </ul>
+        </div>
+        <div className="quotes">
+          <p className="quotesText">Quotes</p>
+          <div>
+            <p>
+              “The first rule of any organic used in a business is that nature
+              applied to an efficient operation will magnify the efficiency. The
+              second is that organic applied to an inefficient operation will
+              magnify the health.”
+            </p>
+          </div>
+        </div>
+        <div className="button">
+          <p className="buttonText">Button</p>
+          <div>
+            <button className="defaultButton">
+              Default Button <img src={ArrowRight} alt="ArrowRight" />
+            </button>
+            <button className="defaultButton2">
+              {" "}
+              Default Button <img src={ArrowRight} alt="ArrowRight" />
+            </button>
+            <button className="defaultButton3">
+              {" "}
+              Default Button <img src={ArrowRight} alt="ArrowRight" />
+            </button>
+            <button className="defaultButton4">
+              {" "}
+              Default Button <img src={ArrowRight} alt="ArrowRight" />
+            </button>
+          </div>
+        </div>
+
+        <div className="orange">
+          <div className="newsletter">
+            <p>Subscribe to<br/> our Newsletter</p>
+          </div>
+          <div className="form">
+            <input type="text" placeholder="Your Email Address" />
+            <button>Subscribe</button>
+          </div>
         </div>
       </div>
     </div>

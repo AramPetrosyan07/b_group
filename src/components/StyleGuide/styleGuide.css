@@ -193,27 +193,235 @@
   color: #274c5b;
   margin-bottom: 70px;
 }
-.paragraphs{
+.paragraphs {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 160px;
 }
-.paragr{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 35px;
-line-height: 41px;
-color: #274C5B;
-margin-left: 180px;
+.paragr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  color: #274c5b;
+  margin-left: 180px;
 }
-.p1{
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 165.4%;
-margin-left: 130px;
-color: #525C60;
+.p1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  margin-left: 130px;
+  color: #525c60;
+}
+.ul {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  margin-right: 130px;
+  color: #525c60;
+  list-style-type: disc;
+}
+.ul {
+  list-style-type: number;
+}
+.list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  color: #274c5b;
+  margin-right: 250px;
+}
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+.quotesText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  color: #274c5b;
+  margin-right: 150px;
+}
+.quotes div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 69px 59px;
+  background: #f1edea;
+  border-radius: 30px;
+  width: 500px;
+  margin-right: 100px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  margin-left: 180px;
+}
+.buttonText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  color: #274c5b;
+  margin-right: 150px;
+}
+.button div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+.defaultButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 20px;
+  background: #274c5b;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-right: 44px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.defaultButton img {
+  width: 19px;
+  height: 19px;
+  margin-left: 10px;
+  background: #335b6b;
+}
+.defaultButton2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 20px;
+  background: #efd372;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-right: 44px;
+  margin-bottom: 40px;
+  color: #274c5b;
+}
+.defaultButton2 img {
+  width: 19px;
+  height: 19px;
+  margin-left: 10px;
+  background: #335b6b;
+}
+.defaultButton3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-right: 44px;
+  margin-bottom: 40px;
+  color: #274c5b;
+}
+.defaultButton3 img {
+  width: 19px;
+  height: 19px;
+  margin-left: 10px;
+  background: #335b6b;
+}
+.defaultButton4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 20px;
+  background: #274c5b;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-right: 44px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.defaultButton4 img {
+  width: 19px;
+  height: 19px;
+  margin-left: 10px;
+  background: #335b6b;
+}
+.orange {
+  width: 80%;
+  margin: 50px 0;
+  height: 323px;
+  background-image: url("../img/orange.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter {
+  margin-left: 71px;
+}
+.newsletter p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+
+  color: #ffffff;
+}
+.form {
+  margin-right: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  padding: 12px 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: none;
+  margin-right: 6px;
+}
+.form button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  padding: 12px 24px;
+  background: #274c5b;
+  border-radius: 16px;
+  border: none;
+}
+.form button:hover{
+  cursor: pointer;
 }
