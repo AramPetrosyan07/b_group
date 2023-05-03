@@ -1,0 +1,20 @@
+.container{
+   max-width: 1400px;
+   margin: 0px auto;
+   padding: 0px 15px;
+}
+.first{
+   background: url(../../images/Banner\ Image.png) center / cover no-repeat;
+   padding: 180px 0px;
+}
+
+.title {
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 70px;
+   line-height: 82px;
+   color: #274C5B;
+  
+}

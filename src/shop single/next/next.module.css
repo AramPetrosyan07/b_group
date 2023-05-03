@@ -1,0 +1,179 @@
+.productsContainer {
+   display: flex;
+   justify-content: center;
+   background-color: #f9f8f8;
+}
+
+.productFooter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-top: 1px solid #DEDDDD;
+}
+
+.stars {
+   display: flex;
+   justify-content: space-between;
+}
+
+.pricing {
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.deletedPrice {
+   text-decoration: line-through;
+   margin-right: 9px;
+}
+
+.productItem {
+   position: relative;
+   width: 335px;
+   height: 483px;
+   background: #FFFFFF;
+   border-radius: 30px;
+   padding: 55px 24px;
+   margin: 0px 10px 0px 0px;
+}
+.productsContainer{
+   padding: 40px 0px 0px 0px;
+}
+
+@media(max-width:991.98px) {
+   .productsContainer {
+      display: block;
+      padding: 20px 40px;
+   }
+}
+
+@media(max-width:1024px) {
+   .productsContainer {
+      display: block;
+      padding: 20px 100px;
+   }
+}
+
+@media(max-width:1590px) {
+   .productsContainer{
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+
+
+
+.bananner {
+   position: relative;
+   top: -70px;
+
+}
+
+.productTitle {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: start;
+   color: #274C5B;
+   margin-left: 5px;
+}
+
+.productTitleBanan {
+   margin-top: -140px;
+   position: relative;
+   
+
+}
+
+.title {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 50px;
+   line-height: 59px;
+   text-align: center;
+   color: #274C5B;
+}
+
+@media(max-width:767.98px) {
+   .title {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 30px;
+      text-align: center;
+      color: #274C5B;
+      padding: 40px 0px 0px 0px;
+   }
+}
+@media(max-width:576.98px){
+   .title{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #274C5B;
+      margin-top: 60px;
+   }
+}
+.category {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   color: #FFFFFF;
+   background: #274C5B;
+   border-radius: 8px;
+   padding: 9px 12px;
+   align-items: center;
+   text-align: center;
+   width: 72px;
+   height: 20px;
+
+
+
+}
+
+.image {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: center;
+   color: #274C5B;
+
+}
+.pricing{
+margin-left: -18%;
+}
+.deletedPrice {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+   color: #B8B8B8;
+}
+
+.price {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #274C5B;
+}
+
+.star {
+   color:#FFA858;
+}
+
+.price {
+   margin-right: 81px;
+}
