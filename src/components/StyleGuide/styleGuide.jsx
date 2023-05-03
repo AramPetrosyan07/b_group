@@ -2,6 +2,7 @@ import React from "react";
 import RightPattern from "../img/Pattern.png";
 import LeftPattern from "../img/Pattern2.png";
 import ArrowRight from "../img/arrow-right.png";
+import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import "./styleGuide.css";
 
 const StyleGuide = () => {
@@ -99,19 +100,22 @@ const StyleGuide = () => {
           <p className="buttonText">Button</p>
           <div>
             <button className="defaultButton">
-              Default Button <img src={ArrowRight} alt="ArrowRight" />
+              Default Button 
+              <BsFillArrowRightCircleFill className="icon"/>
             </button>
             <button className="defaultButton2">
               {" "}
-              Default Button <img src={ArrowRight} alt="ArrowRight" />
+              Default Button 
+              <BsFillArrowRightCircleFill className="icon1"/>
             </button>
             <button className="defaultButton3">
               {" "}
-              Default Button <img src={ArrowRight} alt="ArrowRight" />
+              Default Button 
+              <BsFillArrowRightCircleFill className="icon"/>
             </button>
             <button className="defaultButton4">
               {" "}
-              Default Button <img src={ArrowRight} alt="ArrowRight" />
+              Pagination Button
             </button>
           </div>
         </div>
