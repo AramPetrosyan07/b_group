@@ -377,7 +377,6 @@
 .orange {
   width: 80%;
   margin: 50px 0;
-  height: 323px;
   background-image: url("../img/orange.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -424,4 +423,59 @@
 }
 .form button:hover{
   cursor: pointer;
+}
+@media only screen and (max-width: 798px) {
+  .orange{
+    display: flex;
+    flex-direction: column;
+  }
+  .form{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form input{
+    margin-bottom: 20px;
+  }
+  .quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+  .quotesText{
+    margin-bottom: 20px;
+  }
+  .paragraphs{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .list{
+    margin-bottom: 20px;
+  }
+  .paragr{
+    margin-bottom: 20px;
+  }
+  .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textStyle{
+    margin-bottom: 20px;
+  }
+  .background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colorWord{
+    margin-bottom: 20px;
+  }
+  .colorsDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
