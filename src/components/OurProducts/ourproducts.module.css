@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.OurProducts {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 280px));
+}
+.OurProducts_Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.OurProducts_categories {
+  max-width: 128px;
+  min-height: 49px;
+
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+
+  color: #7eb693;
+}
+
+.OurProducts_subTitle {
+  max-width: 758px;
+  min-height: 59px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #274c5b;
+}
+.svg_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurProducts_nameFood_wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.error_wrapper {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-family: 'Yellowtail', cursive;
+}
+
+.OurProducts_Cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 300px;
+  min-height: 453px;
+  background: #fcfafa;
+  border: 1px solid rgb(234, 228, 228);
+  border-radius: 30px;
+}
+
+.typeFood {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px 6px;
+  gap: 10px;
+  font-size: 16px;
+  max-width: 96px;
+  min-height: 31px;
+
+  background: #274c5b;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px 6px;
+  gap: 10px;
+
+  max-width: 96px;
+  min-height: 31px;
+  color: white;
+  background: #274c5b;
+  border-radius: 8px;
+}
+
+.nameFood {
+  max-width: inherit;
+  min-height: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #274c5b;
+}
+.OurProducts_Info > img {
+  max-width: 100%;
+  min-height: 304px;
+}
+.OurProducts_Price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 200px;
+  max-width: inherit;
+}
+.OurProducts_Price_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.OurProducts_Price_Past {
+  max-width: 48px;
+  height: 20px;
+  text-decoration: line-through;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #b8b8b8;
+}
+#wrpperBtn {
+  padding: 50px 0;
+}
+
+.OurProducts_Price_Now {
+  max-width: 57px;
+  min-height: 25px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #274c5b;
+}
+
+.OurProducts_btn_LoadMore {
+  border-radius: 16px;
+  margin: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allInCenter {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 200px) {
+  .error_wrapper {
+    font-size: 35px;
+  }
+  .OurProducts_categories {
+    font-size: 29px;
+    font-weight: 800;
+  }
+
+  .OurProducts_Price_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .typeFood {
+    font-size: 14px;
+  }
+  .OurProducts_Title {
+    margin: 0px;
+  }
+  .OurProducts_btn_LoadMore {
+    margin: 0;
+  }
+  .OurProducts {
+    min-height: 100px;
+  }
+
+  .OurProducts_Info > img {
+    min-height: 150px;
+  }
+  .OurProducts_subTitle {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .OurProducts_Cart {
+    min-height: 200px;
+  }
+  .allInCenter {
+    margin: 15px;
+  }
+
+  .error_wrapper {
+    font-size: 35px;
+  }
+  .OurProducts_Price_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .typeFood {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "typeFood": "Vegetable",
+      "img": "/assets/img/OurProducts/Brocoli.svg",
+      "name": "Calabrese Broccoli",
+      "pastPrice": "$20.00",
+      "newPrice": "$13.00",
+      "rating": 5,
+      "id": 0
+    },
+    {
+      "typeFood": "Fresh",
+      "img": "/assets/img/OurProducts/Banana.png",
+      "name": "Fresh Banana Fruites",
+      "pastPrice": "$20.00",
+      "newPrice": "$14.00",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "typeFood": "Millets",
+      "img": "/assets/img/OurProducts/Nuts.png",
+      "name": "White Nuts",
+      "pastPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 5,
+      "id": 2
+    },
+    {
+      "typeFood": "Vegetable",
+      "img": "/assets/img/OurProducts/Tomato.png",
+      "name": "Vegan Red Tomato",
+      "pastPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5,
+      "id": 3
+    },
+    {
+      "typeFood": "Vegetable",
+      "img": "/assets/img/OurProducts/MungBean.png",
+      "name": "Calabrese Broccoli",
+      "pastPrice": "$20.00",
+      "newPrice": "$11.00",
+      "rating": 5,
+      "id": 4
+    },
+    {
+      "typeFood": "Nuts",
+      "img": "/assets/img/OurProducts/Brown.png",
+      "name": "Brown Hazelnut",
+      "pastPrice": "$20.00",
+      "newPrice": "$12.00",
+      "rating": 5,
+      "id": 5
+    },
+    {
+      "typeFood": "Fresh",
+      "img": "/assets/img/OurProducts/Eggs.png",
+      "name": "Eggs",
+      "pastPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5,
+      "id": 6
+    },
+    {
+      "typeFood": "Fresh",
+      "img": "/assets/img/OurProducts/ZelcoSuji.png",
+      "name": "Zelco Suji Elaichi Rusk",
+      "pastPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 4,
+      "id": 7
+    },
+    {
+      "typeFood": "Vegetable",
+      "img": "/assets/img/OurProducts/potato.jpg",
+      "name": "Potato",
+      "pastPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 3,
+      "id": 8
+    },
+    {
+      "typeFood": "Fresh",
+      "img": "/assets/img/OurProducts/peper.jpg",
+      "name": "Zelco Suji Elaichi Rusk",
+      "pastPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 4,
+      "id": 9
+    },
+    {
+      "typeFood": "Fresh",
+      "img": "/assets/img/OurProducts/Egglant.jpg",
+      "name": "Egglant",
+      "pastPrice": "$23.00",
+      "newPrice": "$12.00",
+      "rating": 5,
+      "id": 10
+    },
+    {
+      "typeFood": "Fresh",
+      "img": "/assets/img/OurProducts/cucumber.jpg",
+      "name": "Cucumber",
+      "pastPrice": "$18.00",
+      "newPrice": "$10.00",
+      "rating": 5,
+      "id": 11
+    }
+  ]
+}
