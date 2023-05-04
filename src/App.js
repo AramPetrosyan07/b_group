@@ -1,8 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutUs from './Krist/components/AboutUs/AboutUs';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <AboutUs />
+    </div>
+  );
 }
 
 export default App;
