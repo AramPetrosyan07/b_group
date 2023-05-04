@@ -28,8 +28,8 @@ const CustomerSaying = () => {
             <img src={img} alt="Consumer" />
           </div>
           <span className="rating">
-            {new Array(rating).fill('').map(() => {
-              return <MdStarRate />;
+            {new Array(rating).fill('').map((_, id) => {
+              return <MdStarRate key={id} />;
             })}
           </span>
           <div className={style.customer_text}>
@@ -42,12 +42,14 @@ const CustomerSaying = () => {
               {consumer.map((_, i) => {
                 return i === id ? (
                   <VscCircleFilled
+                    key={i}
                     className={style.switching}
                     size={18}
                     onClick={() => changeConsumerData(i)}
                   />
                 ) : (
                   <VscCircle
+                    key={i}
                     className={style.switching}
                     onClick={() => changeConsumerData(i)}
                   />

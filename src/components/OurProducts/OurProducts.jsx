@@ -35,6 +35,7 @@ const OurProducts = () => {
                 item;
               return (
                 <Cart
+                  key={id}
                   typeFood={typeFood}
                   img={img}
                   name={name}

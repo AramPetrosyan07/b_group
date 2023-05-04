@@ -32,6 +32,7 @@ const Offer = () => {
                 elm;
               return elm.typeFood === 'Vegetable' ? (
                 <Cart
+                  key={id}
                   typeFood={typeFood}
                   img={img}
                   name={name}
