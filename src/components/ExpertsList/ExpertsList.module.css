@@ -1,0 +1,20 @@
+.experts {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 40px 20px;
+   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+   .experts {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .experts {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
