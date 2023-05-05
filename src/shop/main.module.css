@@ -22,7 +22,6 @@
 }
 
 .logo_name {
-  /* font-family: */
   position: relative;
   font-size: 38px;
   line-height: 45px;
@@ -43,7 +42,6 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
 }
 
 ul li {
@@ -57,6 +55,7 @@ ul li {
   flex-direction: row;
   gap: 10px;
 }
+
 
 .search {
   width: 45px;
@@ -78,7 +77,7 @@ ul li {
   cursor: pointer;
 }
 
-.cart ~ span {
+.cart~span {
   font-size: 18px;
   color: #274c5b;
   font-weight: bold;
@@ -104,7 +103,6 @@ ul li {
 
 .shop {
   width: 100%;
-  /* height: 1300px; */
   margin: auto;
 }
 
@@ -123,20 +121,12 @@ ul li {
   margin: 10px;
   border-radius: 30px;
   background-color: #f9f8f8;
-  /* display: grid; */
+
 }
 
-/* .shop-row {
-    width: 100%;
-    height: 33%;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: row;
-} */
 
 .type-of-food {
-  /* width: 96px;
-    height: 31px; */
+
   border-radius: 8px;
   background-color: #274c5b;
   color: white;
@@ -149,7 +139,7 @@ ul li {
   height: 185px;
   margin-left: 38px;
   background-origin: content-box;
- 
+
 }
 
 .title {
@@ -167,7 +157,7 @@ ul li {
   gap: 70px;
   color: #274c5b;
   font-weight: bold;
-  
+
 }
 
 .banner2 {
@@ -189,13 +179,13 @@ ul li {
   flex-direction: row;
 }
 
-.img2 > p {
+.img2>p {
   color: white;
   font-size: 50px;
   font-weight: bold;
 }
 
-.img2 > input {
+.img2>input {
   width: 350px;
   height: 80px;
   border-radius: 16px;
@@ -226,17 +216,18 @@ input::placeholder {
   display: flex;
   flex-direction: row;
 
-  /* column-gap: 10px; */
+
 }
+
 .section {
   width: 30%;
   height: 350px;
   border: 1px solid #000;
-  /* margin: 100px 30px 20px 30px; */
+
 }
 
 .line {
-  width: 270px;
+  width: 90%;
   color: #dedddd;
   margin-left: 13px;
   margin-top: 180px;
@@ -250,10 +241,12 @@ input::placeholder {
 .stars {
   color: #ffa858;
 }
+
 .img {
   width: 50px;
   height: 50px;
 }
+
 .type_of_food {
   font-size: 15px;
   color: white;
@@ -264,5 +257,100 @@ input::placeholder {
   background-color: #274c5b;
   margin-right: 157px;
   margin-top: 15px;
-  /* border: 1px solid #000; */
+
+}
+
+.menu_bar {
+  display: none;
+  font-size: 40px;
+}
+
+@media (max-width: 1400px) {
+  .sub_header {
+    width: 90%;
+    height: 50%;
+  }
+
+  .search>img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .cart>img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logo>img {
+
+    width: 25px;
+    height: 25px;
+  }
+
+  .logo_name {
+    font-size: 25px;
+  }
+
+  .rectangle {
+    width: 145px;
+    height: 45px;
+  }
+
+  .shop_list {
+    width: 95%;
+    height: 95%;
+  }
+
+  .title {
+    font-size: 15px;
+    left: 10px;
+  }
+
+  .shop_column {
+    width: 30%;
+  }
+
+
+}
+
+@media (max-width:850px) {
+
+  .shop_column {
+    width: 45%;
+
+  }
+
+  .banner {
+    height: 200px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu_bar {
+    display: block;
+  }
+
+  .shop_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+@media  (max-width: 550px) {
+
+  .banner {
+    width: 100%;
+    height: 120px;
+  }
+  .sub_header{
+    width: 85%;
+
+  }
+  .last_sub_header {
+    width: 35%;
+  }
 }

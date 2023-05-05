@@ -124,6 +124,7 @@ const Main = () => {
             <img className={style.img} src={logo} alt="logo" />
             <label className={style.logo_name}>Organick</label>
           </div>
+          <div className={style.menu_bar}>☰</div>
           <ul className={style.menu}>
             <li>Home</li>
             <li>About</li>
@@ -180,24 +181,8 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="banner2">
-        <div className="img2">
-          <p>
-            Subscribe to <br />
-            our Newsletter
-          </p>
-          <input type="text" placeholder="Your Email Address" />
-          <button className="subscribe" type="submit">
-            Subscribe
-          </button>
-        </div>
-      </div>
-
-      <div className="footer">
-        <div className="section"></div>
-        <div className="section"></div>
-        <div className="section"></div>
-      </div>
+     
+         
     </>
   );
 };
