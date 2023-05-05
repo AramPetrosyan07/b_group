@@ -1,8 +1,7 @@
 import React from "react";
 import RightPattern from "../img/Pattern.png";
 import LeftPattern from "../img/Pattern2.png";
-import ArrowRight from "../img/arrow-right.png";
-import {BsFillArrowRightCircleFill} from 'react-icons/bs'
+ import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import "./styleGuide.css";
 
 const StyleGuide = () => {

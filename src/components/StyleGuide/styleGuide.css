@@ -422,20 +422,19 @@
 .form button:hover {
   cursor: pointer;
 }
-.icon{
+.icon {
   margin-left: 10px;
-  color: #335B6B;
-  background-color:white ;
-  border-radius: 50%;
-}
-.icon1{
-  margin-left: 10px;
-  color: #335B6B;
+  color: #335b6b;
   background-color: white;
   border-radius: 50%;
 }
-@media screen and (max-width: 800px) and (max-width: 19020px) {
-  
+.icon1 {
+  margin-left: 10px;
+  color: #335b6b;
+  background-color: white;
+  border-radius: 50%;
+}
+@media screen and (max-width: 821px) {
   .orange {
     display: flex;
     flex-direction: column;
@@ -453,31 +452,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
   .quotesText {
     margin-bottom: 20px;
-
+    margin-right: auto;
+    margin-left: auto;
   }
-  .quotesText div{
-    margin-right: 0;
+  .quotes div {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
   }
   .paragraphs {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
   }
   .list {
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
   }
-  .ul{
+  .ul {
     margin-left: auto;
     margin-right: auto;
+    font-size: 22px;
   }
+
   .paragr {
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .texts {
     display: flex;
@@ -486,7 +493,7 @@
     margin-right: 0;
     margin-left: 100px;
   }
-  .text{
+  .text {
     margin-left: auto;
     margin-right: auto;
   }
@@ -495,7 +502,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .h1{
+  .p1{
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .h1 {
     margin-left: auto;
     margin-right: auto;
   }
@@ -509,22 +521,142 @@
   }
   .colorsDivs {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: auto;
   }
-  .button{
+  .button {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
   }
-  .button div{
-    margin-left: auto;
-    margin-right: 0;
-  }
-  .colorWord{
+  .buttonText {
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .button div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 140px;
+  }
+  .colorWord {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+  .form button {
+    font-size: 25px;
+    color: #f9f8f8;
+  }
+  .form input{
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .colorsDivs{
+    margin-left:100px;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .background{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .textStyle{
+    font-size: 30px;
+  }
+  .h1{
+    font-size: 35px;
+  }
+  .h2{
+    font-size: 30px;
+  }
+  .h3{
+    font-size: 25px;
+  }
+  .h4{
+    font-size: 20px;
+  }
+  .h5{
+    font-size: 15px;
+  }
+  .h6{
+    font-size: 10px;
+  }
+  .paragr{
+    font-size:30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .p1{
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 8px;
+  }
+  .list{
+    font-size: 30px;
+  }
+  .ul{
+    margin-left: auto;
+    margin-left: auto;
+    padding: 0 29px;
+    font-size: 15px;
+  }
+  .quotesText{
+    font-size: 30px;
+  }
+  .quotes{
+    padding: 0 25px;
+  }
+  .quotes div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+  }
+  .buttonText{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .newsletter p{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .orange{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .styleGuide div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftPattern {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+  }
+  .rightPattern{
+    width: 100px;
+    height: 100px;
+  }
+  .styleGuideP{
+    font-size: 35px;
   }
 }
