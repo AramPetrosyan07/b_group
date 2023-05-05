@@ -1,5 +1,5 @@
 .container{
-    width: 90%;
+    max-width: 1920px;
     margin: 0px auto;
 }
 
@@ -11,49 +11,36 @@
     position: relative;
 }
 
-.child_block{
-    display: flex;
-    width: 90%;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
 
 .description_block_one {
-   width: 70%;
-   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 80%;
    height: 250px;
-   background-color: white;
-   border-radius: 10px 0px 0px 10px;
+   background: linear-gradient(
+    to right,
+    white 0%,
+    white 65%,
+    #fafafa 50%,
+    #fafafa 100%
+  );
+   border-radius: 10px;
+   position: relative;
+   top: 100%;
+   left: 50%;
+   transform: translate(-50%,-50%);
    box-shadow: 0px 14px 36px rgba(204, 204, 204, 0.25);
 }
 
 .description_children_one{
     width: 70%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: 0 0 15px 80px;
 }
-
-.description_block_two{
-    width: 40%;
-    height: 250px;
-    background: #FAFAFA;
-    border-radius: 0px 10px 10px 0px;
-    position: relative;
-    box-shadow: 0px 14px 36px rgba(204, 204, 204, 0.25);
-}
-
 
 
 .description_children_two{
-    width: 55%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 30%;
 }
 
 .description_children_two p{
@@ -63,7 +50,6 @@
     font-size: 1.1vw;
     line-height: 165.4%;
     color: #525C60;
-
 }
 
 .description_children_two span{
@@ -74,7 +60,6 @@
     line-height: 29px;
     color: #274C5B;
     padding-right: 25px;
-
 }
 
 .description_block_one h2{
@@ -87,7 +72,7 @@
 }
 
 .description_block_one p{
-    width: 100%;
+    width: 80%;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -105,7 +90,6 @@
 .farm_block{
     width: 60%;
     margin: 0 auto;
-    padding-top: 180px;
 }
 
 
@@ -202,4 +186,274 @@
     line-height: 165.4%;
     color: #525C60;
     padding-bottom: 50px;
+}
+
+
+/* media-style */
+
+
+@media screen and (max-width: 992px) {
+
+    .description_block_one h2{
+        font-size: 3.2vw;
+    }
+    
+    .description_block_one p{
+        font-size: 1.3vw;
+    }
+
+    .description_children_two p{
+        font-size: 1.2vw;
+    
+    }
+    
+    .description_children_two span{
+        font-size: 1.5vw;
+    }
+
+    .description_children_two{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    /* About-media-style */
+
+    .title_and_text h2{
+        font-size: 3.2vw;
+    }
+    
+    .title_and_text p{
+        font-size: 1.5vw;
+    }
+
+    .farm_block{
+        width: 80%;
+    }
+
+    /* Connclusion-media-style */
+
+    .conclusion_title_and_text h2{
+        font-size: 3.2vw;
+    }
+    
+    .conclusion_title_and_text p{
+        font-size: 1.5vw;
+    }
+
+    .conclusion_content{
+        width: 80%;
+        margin: auto;   
+    }
+
+    /* How To Farm-media-Style */
+
+    .how_to_farm_title_text h2{
+        font-size: 3.2vw;
+    }
+    
+    .how_to_farm_title_text p{
+        font-size: 1.5vw;
+    }
+
+    .how_to_farm_content{
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description_block_one {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(
+        to top,
+        pink 0%,
+        pink 50%,
+        paleturquoise 50%,
+        paleturquoise 100%
+    );
+        height: 400px;
+    }
+
+    .description_children_one{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    .description_block_one h2{
+        font-size: 30px;
+        line-height: 65px;
+        margin-top: -10px;
+    }
+    
+    .description_block_one p{
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 153.4%;
+        color: #525C60;
+    }
+    
+    .description_children_two p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 153.4%;
+        color: #525C60;
+    }
+    
+    .description_children_two span{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 29px;
+        color: #274C5B;
+        padding-right: 25px;
+    }
+
+    .description_children_two{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    /* About-media-style */
+
+    .title_and_text h2{
+        font-size: 3.5vw;
+    }
+    
+    .title_and_text p{
+        font-size: 2vw;
+    }
+
+    /* Connclusion-media-style */
+
+    .conclusion_title_and_text h2{
+        font-size: 3.5vw;
+    }
+    
+    .conclusion_title_and_text p{
+        font-size: 2vw;
+    }
+
+     /* How To Farm-media-Style */
+
+     .how_to_farm_title_text h2{
+        font-size: 3.5vw;
+    }
+    
+    .how_to_farm_title_text p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .description_block_one {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .description_block_one h2{
+        font-size: 26px;
+        line-height: 50px;
+        margin-top: -10px;
+    }
+
+    .description_block_one p{
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 134.4%;
+        color: #525C60;
+    }
+
+    .description_children_two p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.8vw;
+        line-height: 133.4%;
+        color: #525C60;
+    }
+    
+    .description_children_two span{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4vw;
+        line-height: 29px;
+        color: #274C5B;
+        padding-right: 25px;
+    }
+
+    .description_children_two{
+        width: 67%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    /* About-media-style */
+
+    .farm_block{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .title_and_text h2{
+        font-size: 26px;
+    }
+
+    .title_and_text p{
+        font-size: 4vw;
+    }
+
+    /* Connclusion-media-style */
+
+    .conclusion_title_and_text h2{
+        font-size: 26px;
+    }
+    
+    .conclusion_title_and_text p{
+        font-size: 4vw;
+    }
+
+    .conclusion_content{
+        width: 80%;
+        margin: auto; 
+    }
+
+     /* How To Farm-media-Style */
+
+     .how_to_farm_content{
+        margin: auto;
+        width: 80%;
+    }
+
+     .how_to_farm_title_text h2{
+        font-size: 26px;
+    }
+    
+    .how_to_farm_title_text p{
+        font-size: 4vw;
+    }
+
 }

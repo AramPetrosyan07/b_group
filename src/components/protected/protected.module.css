@@ -1,6 +1,5 @@
 .protected_container{
-    width: 100%;
-
+    max-width: 1920px;
 }
 
 .protected_title{
@@ -10,14 +9,14 @@
     align-items: center;
     justify-content: center;
     background: #E3F1E9;
-    gap: 3%;
+    gap: 5vw;
 }
 
 .protected_title h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 3vw;
     line-height: 59px;
     color: #274C5B;
 }
@@ -26,7 +25,7 @@
 
 
 .passvord_parent_block{
-    width: 800px;
+    width: 60%;
     height: 350px;
     background: #FFFFFF;
     box-shadow: 0px 39px 37px rgba(196, 196, 196, 0.25);
@@ -49,8 +48,8 @@
     align-items: center;
     justify-content: space-evenly;
     border: none;
-    width: 8vw;
-    height: 45px;
+    width: 9vw;
+    height: 40px;
     background: #274C5B;
     border-radius: 16px;
     margin-top: 26px;
@@ -61,16 +60,26 @@
     font-size: 1.1vw;
     line-height: 23px;
     color: #FFFFFF;
-    
 }
 
-.icon_right{
+
+
+.css-i4bv87-MuiSvgIcon-root {
+    user-select: none;
+    width: 1vw;
+    height: 1vw;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5vw;
     border-radius: 50%;
     color: #FFFFFF;
 }
 
 .img_block img{
     border-radius: 30px;
+    width: 80%;
 }
 
 form{
@@ -97,9 +106,115 @@ label{
 .authorize_block input{
     box-sizing: border-box;
     text-indent: 20px;
-    width: 400px;
-    height: 50px;
+    width: 25vw;
+    height: 40px;
     background: #FFFFFF;
     border: 1px solid #7EB693;
     border-radius: 16px;
+}
+
+/* protected-media-style */
+
+@media screen and (max-width: 992px) {
+    .protected_title h2{
+        font-size: 3.5vw;
+    } 
+
+    .passvord_parent_block{
+        width: 80%;
+    }
+
+    .authorize_block input{
+        width: 30vw;
+    }
+
+    label{
+        font-size: 1.5vw;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .send_btn{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .protected_title h2{
+        font-size: 4vw;
+    } 
+
+    .authorize_block input{
+        width: 35vw;
+    }
+
+    label{
+        font-size: 2vw;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .send_btn{
+        width: 15vw;
+        font-size: 2vw;
+
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .protected_title h2{
+        font-size: 25px;
+        line-height: 35px;
+    } 
+
+    .authorize_block input{
+        width: 250px;
+    }
+
+    .authorize_block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    label{
+        font-size: 18px;
+    }
+
+    form{
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .send_btn{
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .passvord_parent_block{
+        width: 80%;
+        height: 520px;
+    }
+
+    .img_block img{
+        border-radius: 30px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
 }

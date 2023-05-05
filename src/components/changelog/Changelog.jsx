@@ -17,8 +17,10 @@ export default function Changelog() {
             <div className={style.initial_block}>
                 <div className={style.image_and_descr_block}>
                     <img src={image3} alt="img" />
-                    <h3>V.1</h3>
-                    <p>Initial Organick Webflow Template Release</p>
+                    <div className= {style.title_and_text_block}>
+                        <h3>V.1</h3>
+                        <p>Initial Organick Webflow Template Release</p>
+                    </div>
                 </div>
             </div>
         </div>

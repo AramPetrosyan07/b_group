@@ -1,5 +1,5 @@
 .changelog_content{
-    width: 100%;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -17,7 +17,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 3vw;
     line-height: 59px;
     color: #274C5B;
 }
@@ -26,7 +26,7 @@
     position: relative;
     overflow: hidden;
     margin: 75px auto;
-    width: 700px;
+    width: 60%;
     height: 216px;
     background: #FFFFFF;
     box-shadow: 0px 39px 37px rgba(196, 196, 196, 0.25);
@@ -42,24 +42,110 @@
     transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 2%;
 }
 
-.image_and_descr_block h3{
+.image_and_descr_block img{
+    width: 23%;
+}
+
+.title_and_text_block h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 2.3vw;
     line-height: 47px;
     color: #274C5B;
 }
 
-.image_and_descr_block p{
+.title_and_text_block p{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.1vw;
     line-height: 165.4%;
     color: #525C60;
+}
+
+.title_and_text_block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* changelog-media-style */
+
+
+@media screen and (max-width: 992px) {
+    .initial_block{
+        width: 80%;
+    } 
+
+    .title_and_text_block h3{
+        font-size: 2.5vw;
+    }
+    
+    .title_and_text_block p{
+        font-size: 1.5vw;
+    }
+
+    .images_and_title_block h2{
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_and_text_block h3{
+        font-size: 3vw;
+    }
+    
+    .title_and_text_block p{
+        font-size: 2vw;
+    }
+
+    .images_and_title_block h2{
+        font-size: 4vw;
+    }
+
+    .image_and_descr_block img{
+        width: 26%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .title_and_text_block h3{
+        font-size: 6vw;
+    }
+    
+    .title_and_text_block p{
+        font-size: 4vw;
+    }
+
+    .images_and_title_block h2{
+        font-size: 26px;
+    }
+
+    .image_and_descr_block img{
+        width: 60%;
+    }
+
+    .image_and_descr_block{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .initial_block{
+        width: 80%;
+        height: 336px;
+    }
+
+    .title_and_text_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
 }
