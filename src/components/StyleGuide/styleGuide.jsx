@@ -7,6 +7,7 @@ import "./styleGuide.css";
 const StyleGuide = () => {
   return (
     <div className="common">
+      <div>
       <div className="styleGuide">
         <div>
           <img src={RightPattern} alt="RightPattern" className="rightPattern" />
@@ -128,6 +129,7 @@ const StyleGuide = () => {
             <button>Subscribe</button>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
