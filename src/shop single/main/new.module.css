@@ -5,7 +5,7 @@
 }
 .first{
    background: url(../../images/Banner\ Image.png) center / cover no-repeat;
-   padding: 180px 0px;
+   max-width: 1920px;
 }
 
 .title {
@@ -16,5 +16,22 @@
    font-size: 70px;
    line-height: 82px;
    color: #274C5B;
+   padding: 188px 0px;
   
+}
+@media(max-width:767.98px){
+   .title{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 70px;
+      padding: 100px 0px 100px 75px;
+   }
+}
+@media(max-width:576.98px){
+   .title{
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 50px;
+      padding: 90px 0px 100px 70px;
+}
 }
