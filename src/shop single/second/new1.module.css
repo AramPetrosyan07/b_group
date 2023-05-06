@@ -3,7 +3,6 @@
    margin: 0px auto;
    padding: 0px 15px;
 }
-
 .main {
    display: flex;
    justify-content: space-around;
@@ -16,7 +15,6 @@
       display: block;
    }
 }
-
 .picture_box {
    flex: 0 0 45%;
    margin: 0px 80px 0px 0px;
@@ -36,12 +34,15 @@
 
 @media(max-width:576.98px) {
    .picture1 {
-      padding: 0px 0px 0px 80px;
+      padding: 0px 0px 0px 40px;
       position: absolute;
-
    }
 }
-
+@media(max-width:357.98px){
+   .picture1{
+      padding: 0px 0px 0px 40px;
+   }
+}
 .title1 {
    font-family: 'Roboto';
    font-style: normal;
@@ -102,8 +103,11 @@
    flex-direction: column;
    padding: 170px 0px 0px 0px;
 }
-
-
+@media(max-width:357.98px){
+   .second{
+     padding: 0px 30px 0px 30px;
+   }
+}
 
 .small_text {
    max-width: 658px;
@@ -131,7 +135,11 @@
    justify-content: center;
    align-items: center;
 }
-
+@media(max-width:567.98px){
+   .borders{
+      padding: 60px 20px 0px 80px;
+   }
+}
 .small_text2 {
    margin-right: 22px;
    font-family: 'Roboto';
@@ -161,12 +169,13 @@
 
 @media(max-width:767.98px) {
    .link1 {
-      padding: 15px 37px;
+      padding: 20px 35px;
    }
 }
 
-.link2 {
 
+.link2 {
+   max-width: 213px;
    display: flex;
    align-items: center;
    padding: 30px 40px;
@@ -176,10 +185,10 @@
 
 @media(max-width:767.98px) {
    .link2 {
-      padding: 15px 37px;
+      padding: 15px 35px;
+      width: 150px;
    }
 }
-
 .arrow {
    margin: 0px 0px 0px 10px;
 }
@@ -199,9 +208,14 @@
 @media(max-width:576.98px) {
    .next {
       padding: 0px 0px 0px 80px;
+
    }
 }
-
+@media(max-width:359.98px){
+   .next{
+padding: 0px 0px 0px 140px;
+}
+}
 .product {
    font-family: 'Open Sans';
    font-style: normal;
@@ -229,7 +243,9 @@
    .product {
       font-size: 16px;
       line-height: 23px;
-      padding: 10px 35px;
+      padding: 10px 30px;
+      margin: 0px 10px 40px 0px;
+
    }
 }
 
@@ -246,23 +262,23 @@
    border-radius: 16px;
 }
 
-@media(max-width:576.98px) {
-   .product {
-      font-size: 16px;
-      line-height: 23px;
-      padding: 10px 30px;
-   }
-}
-
 @media(max-width:767.98px) {
    .additional {
       font-weight: 700;
       font-size: 20px;
       line-height: 27px;
       padding: 13px 30px;
+      
    }
 }
-
+@media(max-width:576.98px){
+   .additional{
+      font-size: 16px;
+      line-height: 23px;
+      padding: 10px 30px;
+      
+   }
+}
 .descr {
    width: 100%;
    font-family: 'Open Sans';
@@ -284,5 +300,10 @@
       font-size: 14px;
       padding: 0px 0px 0px 110px;
       text-align: start;
+   }
+}
+@media(max-width:357.98px){
+   .last{
+      padding: 0px 0px 0px 140px;
    }
 }
