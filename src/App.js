@@ -1,12 +1,9 @@
-import HomeBottom from './components/HomeBottom';
-import HomeHeader from './components/HomeHeader';
-import './App.css';
+import HomePage from './components/Home';
 
 function App() {
     return (
         <div className="App">
-            <HomeHeader/>
-            <HomeBottom/>
+            <HomePage/>
         </div>
     );
 }

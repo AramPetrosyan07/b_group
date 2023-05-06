@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(/src/components/fonts/Roboto.ttf);
+    src: url(../../components/fonts/Roboto.ttf);
 }
 
 @font-face {
     font-family: Yellowtail;
-    src: url(/src/components/fonts/Yellowtail.ttf);
+    src: url(../../components/fonts/Yellowtail.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(/src/components/fonts/OpenSans.ttf);
+    src: url(../../components/fonts/OpenSans.ttf);
 }
 
 .WhoWeAre {
@@ -28,7 +28,7 @@
     height: 931px;
     width: 100%;
     left: 0px;
-    top: 6916px;
+    top: 1700px;
 
 }
 
@@ -52,7 +52,7 @@
 .Image {
     width: 50%;
     height: 300px;
-    background-image: url(./images/WhoWeAre.svg);
+    background-image: url(../../images/WhoWeAre.svg);
 }
 
 .Content p {
@@ -137,8 +137,8 @@
     padding: 187px 0px;
     gap: 10px;
     position: absolute;
-    top: 7847px;
-    width: 1920px;
+    top: 2620px;
+    width: 1800px;
     height: 957px;
     left: 0px;
     /* top: 7847px; */
@@ -152,8 +152,8 @@
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
-    width: 1920px;
-    height: 583px;
+    width: 1800px;
+    height: 100%;
 }
 
 .BottomGallery ul li button:hover {
@@ -168,11 +168,11 @@
     align-items: center;
     cursor: pointer;
     padding: 33px 83px 34px;
-    gap: 10px;
+    gap: 9px;
     position: absolute;
     width: 320px;
     height: 96px;
-    left: 146px;
+    left: 106px;
     top: 300px;
     border: 2px solid #ffffff;
     background: #FFFFFF;
@@ -190,10 +190,10 @@
     position: absolute;
     width: 560px;
     height: 688px;
-    left: -38px;
+    left: -30px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./images/Photo.svg);
+    background-image: url(../../images/Photo.svg);
 }
 
 .BottomGallery ul li:nth-child(2) {
@@ -201,10 +201,10 @@
     position: absolute;
     width: 560px;
     height: 688px;
-    left: 606px;
+    left: 600px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./images/Photo2.svg);
+    background-image: url(../../images/Photo2.svg);
 }
 
 .BottomGallery ul li:nth-child(3) {
@@ -212,10 +212,10 @@
     position: absolute;
     width: 560px;
     height: 688px;
-    left: 1234px;
+    left: 1232px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./images/Photo3.svg);
+    background-image: url(../../images/Photo3.svg);
 }
 
 .BottomBlog {
@@ -238,7 +238,7 @@
     width: 1400px;
     height: 175px;
     left: 260px;
-    top: 7881px;
+    top: 2741px;
 }
 
 .BlogContent p {
@@ -314,7 +314,7 @@
     width: 1400px;
     height: 592px;
     left: 260px;
-    top: 8104px;
+    top: 3004px;
 }
 
 .BlogFirst {
@@ -421,7 +421,7 @@
 }
 
 .BlogFirstText button {
-    background-image: url(./images/ButtonBlog.svg);
+    background-image: url(../../images/ButtonBlog.svg);
     padding: 28px 47px 29px;
     width: 220px;
     height: 80px;
@@ -536,7 +536,7 @@
 }
 
 .BlogSecondText button {
-    background-image: url(./images/ButtonBlog.svg);
+    background-image: url(../../images/ButtonBlog.svg);
     padding: 28px 47px 29px;
     width: 220px;
     height: 80px;
@@ -551,9 +551,44 @@
 
 
 /* Responsive */
+@media screen and (max-width: 1500px) {
+    .BottomGallery ul {
+        width: 1745px;
+    }
+
+    .BottomGallery {
+        width: 1745px;
+    }
+
+    .BottomGallery ul li:first-child {
+        width: 500px;
+    }
+
+    .BottomGallery ul li:nth-child(2) {
+        width: 500px;
+        left: 600px
+    }
+
+    .BottomGallery ul li:nth-child(3) {
+        width: 500px;
+        left: 1245px;
+
+    }
+}
 
 @media screen and (max-width: 400px) {
+    .WhoWeAre {
+        width: 1600px;
+        top: 2000px;
+    }
+
+    .Content {
+        left: 600px;
+        width: 400px;
+    }
+
     .BottomGallery {
+        top: 3000px;
         width: 1600px;
         height: 2000px;
     }
@@ -573,14 +608,22 @@
     }
 
     .BottomGallery ul li:nth-child(3) {
+        width: 500px;
         left: 550px;
         top: 1300px;
     }
 
+    .BlogContent {
+        width: 600px;
+        top: 3100px;
+    }
 
     .BlogBlog {
+        top: 3300px;
+        width: 600px;
         left: 150px;
     }
+
     .BottomBlog {
         left: 200px;
         top: 2000px;
@@ -589,6 +632,7 @@
     .BlogBtn {
         left: 600px;
     }
+
     .BlogFirst {
         position: absolute;
         top: 50px;
@@ -605,6 +649,54 @@
         position: absolute;
         left: 10px;
         top: 270px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .BottomGallery {
+        width: 1360px;
+    }
+
+    .BottomGallery ul {
+        width: 500px;
+    }
+
+    .BottomBlog {
+        width: 400px;
+    }
+
+    .WhoWeAre {
+        width: 700px;
+    }
+
+    .BottomGallery ul li:first-child {
+        left: 450px;
+        top: 10px;
+    }
+
+    .BottomGallery ul li:nth-child(2) {
+        left: 450px;
+        top: 650px;
+    }
+
+    .BottomGallery ul li:nth-child(3) {
+        width: 500px;
+        left: 450px;
+        top: 1300px;
+    }
+    .BlogFirst {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+
+    .BlogSecond {
+        position: absolute;
+        top: 700px;
+        left: 20px;
+    }
+    .BlogContent{
+        left: 200px;
     }
 }
 
@@ -629,6 +721,7 @@
     }
 
     .BottomGallery ul li:nth-child(3) {
+        width: 500px;
         left: 350px;
         top: 1300px;
     }
@@ -640,6 +733,9 @@
 
     .BlogBtn {
         left: 550px;
+    }
+    .BlogContent{
+        left: 200px;
     }
 
     .BlogFirst {
@@ -661,6 +757,7 @@
     }
 
     .Content {
+        width: 600px;
         left: 400px;
     }
 }

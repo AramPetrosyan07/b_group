@@ -1,8 +1,8 @@
-import Logo from './images/Logo.svg';
-import Search from './images/Search.svg'
-import Cart from './images/Cart Icon.svg'
-import Baner from './images/Banner.jpg'
-import Headervector from './images/HeaderVector.svg';
+import Logo from '../../images/Logo.svg';
+import Search from '../../images/Search.svg'
+import Cart from '../../images/Cart Icon.svg'
+import Baner from '../../images/Banner.jpg'
+import Headervector from '../../images/HeaderVector.svg';
 import Styles from './HomeHeader.module.css';
 export default function HomeHeader() {
 

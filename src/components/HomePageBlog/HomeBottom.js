@@ -1,14 +1,13 @@
-import image from './images/WhoWeAre.svg';
-import Arrow from './images/Arrow.svg';
-import Blog1 from './images/BlogPhoto1.svg';
-import Blog2 from './images/BlogPhoto2.svg';
-import admin from './images/AdminVect.svg';
+import image from '../../images/WhoWeAre.svg';
+import Arrow from '../../images/Arrow.svg';
+import Blog1 from '../../images/BlogPhoto1.svg';
+import Blog2 from '../../images/BlogPhoto2.svg';
+import admin from '../../images/AdminVect.svg';
 import styles from './HomeBottom.module.css';
 
 export default function HomeBottom() {
 
     return (<>
-        <body>
             <div className={styles.WhoWeAre}>
                 <div className={styles.Content}>
                     <p>Eco Friendly</p>
@@ -71,7 +70,6 @@ export default function HomeBottom() {
                     </div>
                 </div>
             </div>
-        </body>
     </>
     )
 }
