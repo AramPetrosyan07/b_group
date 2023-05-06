@@ -1,43 +1,70 @@
-.container {
-   max-width: 1400px;
-   margin: 0px auto;
-   padding: 0px 15px;
-}
+/* .container {
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 0px 15px;
+} */
 
+/* 
 .first {
    background: url(../../images/Banner\ Image.png) center/ 100% 100% no-repeat;
+   /* max-width: 1920px; */
    max-width: 100%;
    margin: 0px 0px 40px 0px;
 }
 
 .title {
+  position: absolute;
+  top: 5vw;
+  left: 50%;
+  transform: translate(-50%, 0px);
 
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 800;
-   font-size: 70px;
-   line-height: 82px;
-   color: #274C5B;
-   padding: 130px 0px;
-
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 82px;
+  color: #274c5b;
 }
 
-@media(max-width:767.98px) {
-   .title {
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 67px;
-      text-align: center;
-   }
+@media (max-width: 1900px) {
+  .title {
+    position: absolute;
+    top: 5vw;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 82px;
+    color: #274c5b;
+  }
 }
-@media(max-width:576.98px){
-   .title{
-      font-size: 36px;
-   }
+
+@media (max-width: 767.98px) {
+  .title {
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: 4vw;
+
+    line-height: 67px;
+    text-align: center;
+  }
 }
-@media(max-width:357.98px){
-   .title{
-   padding: 9px 0px 9px 120px;
-   font-size: 32px;
-   }
+
+@media (max-width: 576.98px) {
+  .title {
+    /* font-size: 36px; */
+    top: 4vw;
+  }
+}
+
+@media (max-width: 357.98px) {
+  .title {
+    /* padding: 9px 0px 9px 120px;
+    font-size: 32px; */
+    top: 5vw;
+    font-size: 10vw;
+  }
 }
