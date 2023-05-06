@@ -7,10 +7,6 @@
     width: 100%;
 }
 
-.image_block{
-    position: relative;
-}
-
 
 .description_block_one {
    display: flex;
@@ -454,6 +450,86 @@
     
     .how_to_farm_title_text p{
         font-size: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .container{
+        width: 280px;
+        margin: 0px auto;
+    }
+
+    .description_block_one{
+        position: relative;
+        left: 65%;
+        width: 100%;
+    }
+    
+    .image_block img{
+        width: 130vw;
+    }
+    
+    .description_block_one p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .description_children_two p{
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .description_children_two span{
+        font-size: 15px;
+    }
+
+    /* About-media-style */
+
+    .farm_block{
+        width: 100%;
+        position: relative;
+        left: 15%;
+    }
+
+    .title_and_text h2{
+        font-size: 26px;
+    }
+
+    .title_and_text p{
+        font-size: 14px;
+    }
+
+     /* Connclusion-media-style */
+
+     .conclusion_title_and_text h2{
+        font-size: 26px;
+    }
+    
+    .conclusion_title_and_text p{
+        font-size: 14px;
+    }
+
+    .conclusion_content{
+        width: 100%;
+        position: relative;
+        left: 15%;
+    }
+
+    /* How To Farm-media-Style */
+
+    .how_to_farm_content{
+        position: relative;
+        left: 15%;
+        width: 100%;
+    }
+
+     .how_to_farm_title_text h2{
+        font-size: 26px;
+    }
+    
+    .how_to_farm_title_text p{
+        font-size: 14px;
     }
 
 }

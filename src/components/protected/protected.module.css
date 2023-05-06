@@ -218,3 +218,53 @@ label{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .protected_title{
+        width: 363px;
+    }
+    .protected_title h2{
+        font-size: 25px;
+        line-height: 35px;
+    } 
+
+    .authorize_block input{
+        width: 200px;
+    }
+
+    .authorize_block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    label{
+        font-size: 18px;
+    }
+
+    form{
+        width: 100%;
+        position: relative;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .send_btn{
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .passvord_parent_block{
+        width: 363px;
+        height: 520px;
+    }
+
+    .img_block img{
+        border-radius: 30px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}

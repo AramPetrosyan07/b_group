@@ -11,7 +11,7 @@ export default function Main() {
     <div className={style.container}>
         <div className={style.main_Content}>
             <div className={style.image_block}>
-                <img src={image1} alt="img" />
+                <img className={style.raspberry} src={image1} alt="img" />
                 <div className={style.description_block_one}>
                     <div className={style.description_children_one}>
                         <h2>Black Raspberry</h2>
