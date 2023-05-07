@@ -2,27 +2,29 @@
   text-align: center;
 } */
 
-.container{
-  width: 100%;
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  max-width: 1920px;
+}
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  ;
 }
 
-@media screen and (min-width: 1920px){
-  .container{
+/* @media screen and (min-width: 1920px) {
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1920px;
     margin: 0 auto;
-    
-    
   }
-  
-
-
-  
-}
+} */
