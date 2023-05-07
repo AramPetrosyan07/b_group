@@ -1,108 +1,67 @@
-import React from 'react'
-import classes from './style.module.css'
-import {BiChevronRight} from 'react-icons/bi'
+import React from "react";
+import classes from "./style.module.css";
+import { BiChevronRight } from "react-icons/bi";
+import lemon from "../../images/lemon.png";
+import carrot from "../../images/carrot.png";
+import leaf from "../../images/leaf.png";
+import tommato from "../../images/tommato.png";
+import raspberry from "../../images/raspberry.png";
+import orange from "../../images/orange.png";
 
+function Portfolio() {
+  const fruitArr = [
+    {
+      fruitImage: lemon,
+      title: "green & tasty lemon",
+      category: "fruits",
+    },
+    {
+      fruitImage: carrot,
+      title: "organic carrot",
+      category: "farmer",
+    },
+    {
+      fruitImage: leaf,
+      title: "organic betel leaf",
+      category: "leaf",
+    },
+    {
+      fruitImage: tommato,
+      title: "natural tommato",
+      category: "fruits",
+    },
+    {
+      fruitImage: raspberry,
+      title: "black raspberry",
+      category: "farmer",
+    },
+    {
+      fruitImage: orange,
+      title: "honey orange",
+      category: "farmer",
+    },
+  ];
 
-
-function Portfolio(image) {
- 
   return (
     <>
-      {
-        image.image.includes('lemon')? 
-        <div className={classes.imgBlock}>
-          <img src={image.image} alt="lemon.png"  title='Tasty Lemon'/>
-          <div>
-            <h2>green & tasty lemon</h2>
-            <p>fruits</p>
-          </div>
-          <div className={classes.popup}>
-            <div className={classes.popupInner}>
-              <BiChevronRight className={classes.goBtn}/>
+      {fruitArr.map((item, index) => {
+        return (
+          <div className={classes.imgBlock} key={index}>
+            <img src={item.fruitImage} alt="orange.png" title="Honey Orange" />
+            <div>
+              <h2>{item.title}</h2>
+              <p>{item.category}</p>
             </div>
-          </div>   
-        </div>:null
-      }
-      {
-        image.image.includes('carrot')? 
-        <div className={classes.imgBlock}>
-          <img src={image.image} alt="carrot.png" title='Organic Carrot'/>
-          <div>
-            <h2>organic carrot</h2>
-            <p>farmer</p>
-          </div>
-          <div className={classes.popup}>
-            <div className={classes.popupInner}>
-              <BiChevronRight className={classes.goBtn}/>
+            <div className={classes.popup}>
+              <div className={classes.popupInner}>
+                <BiChevronRight className={classes.goBtn} />
+              </div>
             </div>
           </div>
-        </div>:null
-      }
-      {
-        image.image.includes('leaf')? 
-        <div className={classes.imgBlock}>
-          <img src={image.image} alt="leaf.png" title='Leaf'/>
-          <div>
-            <h2>organic betel leaf</h2>
-            <p>leaf</p>
-          </div>
-          <div className={classes.popup}>
-            <div className={classes.popupInner}>
-              <BiChevronRight className={classes.goBtn}/>
-            </div>
-          </div>
-        </div>:null
-      }
-      {
-        image.image.includes('tommato')? 
-        <div className={classes.imgBlock}>
-          <img src={image.image} alt="tommato.png" title='Natural Tommato'/>
-          <div>
-            <h2>natural tommato</h2>
-            <p>fruits</p>
-          </div>
-          <div className={classes.popup}>
-            <div className={classes.popupInner}>
-              <BiChevronRight className={classes.goBtn}/>
-            </div>
-          </div>
-        </div>:null
-      }
-      {
-        image.image.includes('raspberry')? 
-        <div className={classes.imgBlock}>
-          <img src={image.image} alt="raspberry.png" title='Black Raspberry'/>
-          <div>
-            <h2>blak raspberry</h2>
-            <p>farmer</p>
-          </div>
-          <div className={classes.popup}>
-            <div className={classes.popupInner}>
-              <BiChevronRight className={classes.goBtn}/>
-            </div>
-          </div>
-        </div>:null
-      }
-      {
-         
-        image.image.includes('orange')? 
-        <div className={classes.imgBlock}>
-          <img src={image.image} alt="orange.png" title='Honey Orange'/>
-          <div>
-            <h2>honey orange</h2>
-            <p>farmer</p>
-          </div>
-          <div className={classes.popup}>
-            <div className={classes.popupInner}>
-              <BiChevronRight className={classes.goBtn}/>
-            </div>
-          </div>
-        </div>:null 
-      }
-      
-          
-   </> 
-  )
+        );
+      })}
+    </>
+  );
 }
 
-export default Portfolio
+export default Portfolio;
