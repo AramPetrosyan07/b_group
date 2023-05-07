@@ -4,9 +4,9 @@
 .imgBlock{
     width: 451px;
     height: 503px;
-    margin: 10px; 
+    margin: 15px; 
     position: relative;
-    transition: all 3s linear;
+   
 }
 
 .imgBlock img{
@@ -70,7 +70,7 @@
 
 .imgBlock:hover > .popup{
     display: flex;
-    
+    transition: all 3s linear;
     
 }
 
@@ -82,6 +82,9 @@
     }
     .imgBlock img{ 
         height: 300px;
+    }
+    .popup {
+        height: 50%;
     }
     
 }
