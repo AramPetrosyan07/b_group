@@ -3,9 +3,10 @@
 
 .imgBlock{
     width: 451px;
+    height: 503px;
     margin: 10px; 
     position: relative;
-    
+    transition: all 3s linear;
 }
 
 .imgBlock img{
@@ -30,24 +31,23 @@
     font-weight: 400;
     line-height: 30px;
     text-transform: capitalize;
-    margin-top: -20px;
+    
 }
 
 .popup{
     display: none;
     justify-content: center;
     align-items: center;
-    background: rgba(255,255,255, .8);
+    background: rgba(255,255,255, .7);
     width: 90%;
     height: 75%;
     border-radius: 30px;
     position: absolute;
-    top: 10px;
-    left: 20px;
+    top: 5%;
+    left: 5%;
     z-index: 9;
-    transition:  5s ease;
-    
    
+    
 }
 
 .popupInner{
@@ -71,4 +71,26 @@
 .imgBlock:hover > .popup{
     display: flex;
     
+    
+}
+
+@media screen and (max-width: 600px) {
+    .imgBlock{
+        width: 250px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .imgBlock img{ 
+        height: 300px;
+    }
+    
+}
+@media screen and (min-width: 1920px){
+    .imgBlock{
+        width: 600px;
+        height: 700px;    
+    }
+    .imgBlock img{ 
+        height: 80%;
+    }
 }
