@@ -1,12 +1,12 @@
 import React from "react";
 import classes from "./style.module.css";
 import { BiChevronRight } from "react-icons/bi";
-import lemon from "../../images/lemon.png";
-import carrot from "../../images/carrot.png";
-import leaf from "../../images/leaf.png";
-import tommato from "../../images/tommato.png";
-import raspberry from "../../images/raspberry.png";
-import orange from "../../images/orange.png";
+import lemon from "../images/lemon.png";
+import carrot from "../images/carrot.png";
+import leaf from "../images/leaf.png";
+import tommato from "../images/tommato.png";
+import raspberry from "../images/raspberry.png";
+import orange from "../images/orange.png";
 
 function Portfolio() {
   const fruitArr = [

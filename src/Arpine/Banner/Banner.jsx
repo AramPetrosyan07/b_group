@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./style.module.css";
-import banner from "../../images/banner.png";
+import banner from "../images/banner.png";
 
 function Banner() {
   return (

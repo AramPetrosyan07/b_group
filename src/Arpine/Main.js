@@ -1,6 +1,6 @@
-import "./App.css";
-import Banner from "./Arpine/Banner/Banner";
-import Portfolio from "./Arpine/Portfolio/Portfolio";
+import "../App.css";
+import Banner from "./Banner/Banner";
+import Portfolio from "./Portfolio/Portfolio";
 
 function Main() {
   return (
