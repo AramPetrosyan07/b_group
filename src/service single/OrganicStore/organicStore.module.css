@@ -110,7 +110,7 @@
 
 }
 .inside {
-    width: 320px;
+    width: 340px;
     display: flex;
     align-items: center;
     margin-left: 17px;
@@ -162,6 +162,7 @@
     .container {
         margin-bottom:50px;
     }
+
 }
 
 @media  (min-width: 280px) and (max-width: 500px) {
