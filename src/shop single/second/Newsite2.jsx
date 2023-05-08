@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './new1.module.css'
-import Picture1 from '../../images/Image.png'
-import Picture2 from '../../images/Star.png'
-import Picture3 from '../../images/Pricing.png'
-import Arrow from '../../images/Arrow.png'
+import Picture1 from './../images/Image.png'
+import Picture2 from './../images/Star.png'
+import Picture3 from './../images/Pricing.png'
+import Arrow from './../images/Arrow.png'
 export default function Newsite2() {
 
   return (

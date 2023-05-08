@@ -1,9 +1,9 @@
 import React from 'react'
 import style from "./next.module.css"
-import Banana from '../../images/banana.png'
-import Brokkoli from '../../images/brokkoli.png'
-import Tomato from '../../images/tomato.png'
-import Nuts from '../../images/nuts.png'
+import Banana from './../images/banana.png'
+import Brokkoli from './../images/brokkoli.png'
+import Tomato from './../images/tomato.png'
+import Nuts from './../images/nuts.png'
 
 
 const Newsite3 = () => {
