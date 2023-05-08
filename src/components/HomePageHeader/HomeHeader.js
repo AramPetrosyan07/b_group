@@ -1,4 +1,4 @@
-import Logo from '../../images/Logo.svg';
+import Logo from '../../images/Logo.jpg';
 import Search from '../../images/Search.svg'
 import Cart from '../../images/Cart Icon.svg'
 import Baner from '../../images/Banner.jpg'
@@ -27,7 +27,7 @@ export default function HomeHeader() {
             </div>
 
             <div className={Styles.Banner}>
-                <img className={Styles.BanerBackground} src={Baner} />
+                <img className={Styles.BanerBackground} />
                 <div className={Styles.BannerText}>
                     <p>100% Natural Food</p>
                     <span>Choose the best healthier way <br /> of life</span>

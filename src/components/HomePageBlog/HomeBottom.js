@@ -1,7 +1,7 @@
-import image from '../../images/WhoWeAre.svg';
+import image from '../../images/WhoWeAre.jpg';
 import Arrow from '../../images/Arrow.svg';
-import Blog1 from '../../images/BlogPhoto1.svg';
-import Blog2 from '../../images/BlogPhoto2.svg';
+import Blog1 from '../../images/BlogPhoto1.jpg';
+import Blog2 from '../../images/BlogPhoto2.jpg';
 import admin from '../../images/AdminVect.svg';
 import styles from './HomeBottom.module.css';
 
@@ -23,7 +23,6 @@ export default function HomeBottom() {
                             <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.</h2></li>
                     </ul>
                 </div>
-                <div className={styles.Image}><img src={image} /></div>
             </div>
 
             <div className={styles.BottomGallery}>

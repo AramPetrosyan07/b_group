@@ -29,7 +29,9 @@
     width: 100%;
     left: 0px;
     top: 1700px;
-
+    background-image: url(/src/images/WhoWeAre.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .Content {
@@ -52,7 +54,7 @@
 .Image {
     width: 50%;
     height: 300px;
-    background-image: url(../../images/WhoWeAre.svg);
+    background-image: url(../../images/WhoWeAre.jpg);
 }
 
 .Content p {
@@ -193,7 +195,7 @@
     left: -30px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../../images/Photo.svg);
+    background-image: url(../../images/Photo.jpg);
 }
 
 .BottomGallery ul li:nth-child(2) {
@@ -204,7 +206,7 @@
     left: 600px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../../images/Photo2.svg);
+    background-image: url(../../images/Photo2.jpg);
 }
 
 .BottomGallery ul li:nth-child(3) {
@@ -215,7 +217,7 @@
     left: 1232px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../../images/Photo3.svg);
+    background-image: url(../../images/Photo3.jpg);
 }
 
 .BottomBlog {
@@ -552,76 +554,123 @@
 
 /* Responsive */
 @media screen and (max-width: 1500px) {
+    .Content {
+        left: 600px;
+    }
+
     .BottomGallery ul {
-        width: 1745px;
+        width: 1500px;
+        gap: 0px;
+
+    }
+
+    .BottomGallery ul li button {
+        width: 300px;
+        left: 50px;
     }
 
     .BottomGallery {
-        width: 1745px;
+        width: 1500px;
     }
 
     .BottomGallery ul li:first-child {
-        width: 500px;
+        width: 400px;
     }
 
     .BottomGallery ul li:nth-child(2) {
-        width: 500px;
-        left: 600px
+        width: 400px;
+        left: 550px
     }
 
     .BottomGallery ul li:nth-child(3) {
-        width: 500px;
-        left: 1245px;
+        width: 400px;
+        left: 1100px;
 
+    }
+
+    .BottomBlog {
+        left: -100px;
+    }
+
+    .BlogBtn {
+        left: 900px;
+    }
+
+    .BlogBlog {
+        width: 500px;
+    }
+
+
+    .BlogFirst {
+        width: 300px;
+    }
+
+    .BlogFirst img {
+        width: 650px;
+
+    }
+
+    .BlogSecond {
+        padding-left: 260px;
+        width: 300px;
+    }
+
+    .BlogSecondText {
+        left: 700px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .WhoWeAre {
-        width: 1600px;
-        top: 2000px;
+        width: 700px;
+        top: 1700px;
+
     }
 
     .Content {
-        left: 600px;
+        left: 400px;
+        width: 400px;
+    }
+
+    .Content ul li h2 {
         width: 400px;
     }
 
     .BottomGallery {
-        top: 3000px;
-        width: 1600px;
+        top: 2630px;
+        width: 1000px;
         height: 2000px;
     }
 
     .BottomGallery ul {
-        width: 1600px;
+        width: 1000px;
     }
 
     .BottomGallery ul li:first-child {
-        left: 550px;
+        left: 300px;
         top: 10px;
     }
 
     .BottomGallery ul li:nth-child(2) {
-        left: 550px;
+        left: 300px;
         top: 650px;
     }
 
     .BottomGallery ul li:nth-child(3) {
-        width: 500px;
-        left: 550px;
+        left: 300px;
         top: 1300px;
     }
 
     .BlogContent {
         width: 600px;
-        top: 3100px;
+        top: 2700px;
+        left: -70px;
     }
 
     .BlogBlog {
-        top: 3300px;
+        top: 2900px;
         width: 600px;
-        left: 150px;
+        left: -150px;
     }
 
     .BottomBlog {
@@ -636,128 +685,265 @@
     .BlogFirst {
         position: absolute;
         top: 50px;
-        left: 200px;
+        left: 230px;
+    }
+
+    .BlogFirstText img {
+        width: 100px;
+        left: 16px;
     }
 
     .BlogSecond {
         position: absolute;
         top: 700px;
-        left: 120px;
+        left: -100px;
+    }
+
+    .BlogSecond img {
+        width: 640px;
     }
 
     .BlogSecondText {
         position: absolute;
-        left: 10px;
+        left: 260px;
         top: 270px;
+    }
+
+    .BlogSecondText img {
+        width: 100px;
+        left: 16px;
     }
 }
 
-@media screen and (max-width: 350px) {
-    .BottomGallery {
-        width: 1360px;
-    }
-
-    .BottomGallery ul {
+@media screen and (max-width: 500px) {
+    .WhoWeAre {
         width: 500px;
+        top: 1700px;
+
     }
 
-    .BottomBlog {
+    .Content {
+        top: 990px;
+        left: 10px;
         width: 400px;
     }
 
-    .WhoWeAre {
-        width: 700px;
+    .Content ul li h2 {
+        width: 400px;
     }
 
-    .BottomGallery ul li:first-child {
-        left: 450px;
-        top: 10px;
-    }
-
-    .BottomGallery ul li:nth-child(2) {
-        left: 450px;
-        top: 650px;
-    }
-
-    .BottomGallery ul li:nth-child(3) {
-        width: 500px;
-        left: 450px;
-        top: 1300px;
-    }
-    .BlogFirst {
-        position: absolute;
-        top: 50px;
-        left: 100px;
-    }
-
-    .BlogSecond {
-        position: absolute;
-        top: 700px;
-        left: 20px;
-    }
-    .BlogContent{
-        left: 200px;
-    }
-}
-
-@media screen and (max-width: 300px) {
     .BottomGallery {
-        width: 1200px;
+        top: 3430px;
+        width: 500px;
         height: 2000px;
     }
 
     .BottomGallery ul {
-        width: 1200px;
+        width: 500px;
     }
 
     .BottomGallery ul li:first-child {
-        left: 350px;
+        left: 50px;
         top: 10px;
     }
 
     .BottomGallery ul li:nth-child(2) {
-        left: 350px;
+        left: 50px;
         top: 650px;
     }
 
     .BottomGallery ul li:nth-child(3) {
-        width: 500px;
-        left: 350px;
+        left: 50px;
         top: 1300px;
     }
 
-    .BottomBlog {
-        left: 50px;
-        top: 2000px;
+    .BlogContent {
+        width: 500px;
+        top: 3500px;
+        left: -80px;
+    }
+
+    .BlogContent span {
+        width: 500px;
     }
 
     .BlogBtn {
-        left: 550px;
+        left: 10px;
+        top: 250px;
     }
-    .BlogContent{
-        left: 200px;
+
+    .BlogBlog {
+        top: 3900px;
+        width: 500px;
+        left: -300px;
     }
 
     .BlogFirst {
         position: absolute;
+        width: 400px;
         top: 50px;
-        left: 200px;
+        left: 230px;
+    }
+    .BlogFirst img {
+        width: 450px;
+    }
+    .BlogFirstText{
+        padding-left: 140px;
+        width: 500px;
+        left: -120px;
+    }
+
+    .BlogFirstText img {
+        width: 100px;
+        left: 15px;
     }
 
     .BlogSecond {
         position: absolute;
         top: 700px;
-        left: 120px;
+        left: -110px;
+        width: 400px;
+    }
+    .BlogSecond span {
+        left: 250px;
+        z-index: 1;
+    }
+    .BlogSecond img {
+        width: 450px;
     }
 
     .BlogSecondText {
         position: absolute;
-        left: 10px;
+        padding-left: 140px;
+        width: 500px;
+        left: 210px;
         top: 270px;
+    }
+    .BlogSecondText span {
+        left: 80px;
+    }
+    .BlogSecondText img {
+        width: 100px;
+        left: 16px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .WhoWeAre {
+        width: 500px;
+        top: 1700px;
+
     }
 
     .Content {
-        width: 600px;
-        left: 400px;
+        top: 990px;
+        left: 10px;
+        width: 300px;
+    }
+
+    .Content ul li h2 {
+        width: 400px;
+    }
+
+    .BottomGallery {
+        top: 3430px;
+        width: 500px;
+        height: 2000px;
+    }
+
+    .BottomGallery ul {
+        width: 500px;
+    }
+
+    .BottomGallery ul li:first-child {
+        left: 50px;
+        top: 10px;
+    }
+
+    .BottomGallery ul li:nth-child(2) {
+        left: 50px;
+        top: 650px;
+    }
+
+    .BottomGallery ul li:nth-child(3) {
+        left: 50px;
+        top: 1300px;
+    }
+
+    .BlogContent {
+        width: 500px;
+        top: 3500px;
+        left: -80px;
+    }
+
+    .BlogContent span {
+        width: 400px;
+    }
+
+    .BlogBtn {
+        left: 40px;
+        top: 260px;
+    }
+
+    .BlogBlog {
+        top: 3900px;
+        width: 300px;
+        left: -300px;
+    }
+
+    .BlogFirst {
+        position: absolute;
+        width: 400px;
+        top: 50px;
+        left: 210px;
+    }
+    .BlogFirst span {
+        left: -80px;
+    }
+    .BlogFirst img {
+        width: 450px;
+    }
+    .BlogFirstText{
+        padding-left: 140px;
+        width: 500px;
+        left: -120px;
+    }
+    .BlogFirstText span {
+        left: 80px;
+
+    }
+
+    .BlogFirstText img {
+        width: 100px;
+        left: 15px;
+    }
+
+    .BlogSecond {
+        position: absolute;
+        top: 700px;
+        left: -120px;
+        width: 400px;
+    }
+    .BlogSecond span {
+        left: 250px;
+        z-index: 1;
+    }
+    .BlogSecond img {
+        width: 450px;
+    }
+
+    .BlogSecondText {
+        position: absolute;
+        padding-left: 140px;
+        width: 500px;
+        left: 210px;
+        top: 270px;
+    }
+    .BlogSecondText span {
+        left: 80px;
+    }
+    .BlogSecondText img {
+        width: 100px;
+        left: 16px;
     }
 }

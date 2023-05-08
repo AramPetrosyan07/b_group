@@ -173,6 +173,10 @@
 .BanerBackground {
   width: 1800px;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/src/images/Banner.jpg);
 }
 
 .BannerText {
@@ -245,7 +249,7 @@
 
 .leftBaner {
   position: relative;
-  background-image: url(../../images/OfferBaner1.svg);
+  background-image: url(../../images/OfferBaner1.jpg);
   width: 682.24px;
   height: 367px;
   flex: none;
@@ -290,7 +294,7 @@
 
 .rightBaner {
   position: relative;
-  background-image: url(../../images/OfferBaner2.svg);
+  background-image: url(../../images/OfferBaner2.jpg);
   width: 682.24px;
   height: 367px;
   left: 150px;
@@ -334,152 +338,246 @@
   Left: 54.88px;
 }
 
-@media screen and (max-width: 1920px) {
-  .body {
-    width: 1920px;
+
+@media screen and (max-width: 1500px) {
+
+  .BanerBackground {
+    width: 1500px;
   }
 
   .Cart {
-    width: 120px;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-
-  .BanerBackground {
-    width: 1800px;
+    left: -220px;
   }
 
   .OferrBaner {
-    left: 50px;
-  }
-  .rightBaner{
-    left: 130px;
-  }
-  .leftBaner{
-    left: 130px;
-  }
-}
-
-@media screen and (max-width: 420px) {
- 
-  .BanerBackground {
-    width: 1650px;
-  }
-
-  .OferrBaner {
-    left: 20px;
-  }
-  .Cart{
-    left: -164px;
-  }
-  .Search{
-    left: -44px;
-  }
-  .rightBaner{
-    left: 80px;
-  }
-  .leftBaner{
-    left: 80px;
-  }
-}
-@media screen and (max-width: 400px) {
- 
-  .BanerBackground {
-    width: 1520px;
-    height: 100%;
-  }
-
-  .OferrBaner {
-    left: 20px;
-  }
-  .Cart{
-    left: -194px;
-  }
-  .Search{
-    left: -74px;
-  }
-  .OferrBaner {
-    width: 500px;
-    left: 50px;
-    gap: 0rem;
-  }
-  .rightBaner{
-    left: 80px;
-  }
-  .leftBaner {
-    left: 60px;
-  }
-}
-@media screen and (max-width: 350px) {
-  .BanerBackground {
-    width: 1350px;
-    height: 100%;
-  }
-  .logo{
-    left: -20px;
-  }
-  .Header ul li{
-    left: -50px;
-  }
-  .MenuHover img {
-    left: -20px;
-  }
-  .Header ul :nth-child(3) {
-    left: -70px;
-  }
-  .Cart{
-    left: -694px;
-  }
-  .Search{
-    left: -174px;
-  }
-  .Header input {
-    left: -10px;
-  }
-  .rightBaner{
-    left: -380px;
-    top: -100px;
-  }
-  .leftBaner{
-    top: 300px;
-    left: 300px;
-  }
-}
-@media screen and (max-width: 300px) {
-  .BanerBackground {
-    width: 1190px;
-  }
-  .BannerText{
-    left: 100px;
-  }
-  .logo{
-    left: -20px;
-  }
-  .Header ul li{
-    left: -70px;
-  }
-  .MenuHover img {
-    left: 70px;
-  }
-  .Header ul :nth-child(3) {
-    left: -110px;
-  }
-  .Cart{
-    left: -724px;
-  }
-  .Search{
-    left: -424px;
-  }
-  .Header input {
     left: -90px;
   }
-  .rightBaner{
-    left: -450px;
-    top: -100px;
+
+  .Search {
+    left: -104px;
   }
-  .leftBaner{
-    top: 300px;
-    left: 227px;
+
+  .Header input {
+    left: 69px;
+  }
+
+  .rightBaner {
+    left: 130px;
+  }
+
+  .leftBaner {
+    left: 130px;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+
+  .BanerBackground {
+    width: 1500px;
+  }
+
+  .OferrBaner {
+    left: -60px;
+  }
+
+  .Cart {
+    left: -334px;
+  }
+
+  .Search {
+    left: -210px;
+  }
+
+  .Header input {
+    width: 200px;
+    left: -37px;
+  }
+
+  .rightBaner {
+    width: 600px;
+    left: 130px;
+  }
+
+  .leftBaner {
+    width: 600px;
+    left: 100px;
+  }
+
+  .Header ul {
+    position: relative;
+    top: 0px;
+    left: -100px;
+  }
+
+  .logo {
+    left: -10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .BanerBackground {
+    width: 1000px;
+    height: 100%;
+  }
+
+  .Header ul {
+    position: relative;
+    top: 0px;
+    left: -250px;
+    width: 500px;
+  }
+
+  .logo {
+    left: -30px;
+  }
+
+  .Cart {
+    left: -550px;
+  }
+
+  .Search {
+    left: -475px;
+  }
+
+  .Header input {
+    width: 100px;
+    left: -250px;
+  }
+
+  .OferrBaner {
+    left: -30px;
+  }
+
+  .rightBaner {
+    width: 400px;
+  }
+
+  .leftBaner {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .BanerBackground {
+    width: 500px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/src/images/Banner.jpg);
+  }
+
+  .BannerText {
+    font-size: 10px;
+    left: 20px;
+    top: 250px;
+  }
+
+  .BannerText span {
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 30px;
+    top: -10px;
+    left: -50px;
+  }
+
+  .Header ul {
+    left: -400px;
+    position: relative;
+    top: 40px;
+    width: 500px;
+  }
+
+  .Cart {
+    top: -10px;
+    left: -1050px;
+  }
+
+  .Search {
+    top: -10px;
+    left: -974px;
+  }
+
+  .Header input {
+    width: 200px;
+    top: -10px;
+    left: -800px;
+  }
+
+  .rightBaner {
+    left: -350px;
+    top: -300px;
+  }
+
+  .leftBaner {
+    top: 150px;
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .BanerBackground {
+    width: 500px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/src/images/Banner.jpg);
+  }
+
+  .BannerText {
+    font-size: 10px;
+    left: 20px;
+    top: 250px;
+  }
+
+  .BannerText span {
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 30px;
+    top: -10px;
+    left: -50px;
+  }
+
+  .Header ul {
+    left: -400px;
+    position: relative;
+    top: 40px;
+    width: 450px;
+  }
+
+  .Cart {
+    top: -10px;
+    left: -1020px;
+  }
+
+  .Search {
+    top: -10px;
+    left: -900px;
+  }
+
+  .Header input {
+    width: 200px;
+    top: -10px;
+    left: -725px;
+  }
+
+  .rightBaner {
+    left: -350px;
+    top: -300px;
+  }
+
+  .leftBaner {
+    top: 150px;
+    left: 90px;
   }
 }
