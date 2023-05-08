@@ -268,7 +268,7 @@ padding: 0px 0px 0px 140px;
       font-size: 20px;
       line-height: 27px;
       padding: 13px 30px;
-      
+      margin: 0px 20px 0px 0px;
    }
 }
 @media(max-width:576.98px){
@@ -288,7 +288,7 @@ padding: 0px 0px 0px 140px;
    line-height: 165.4%;
    text-align: center;
    color: #525C60;
-   margin: 27px 0px 0px 0px;
+   margin: 27px 20px 0px 20px;
    max-width: 1137px;
    height: 90px;
    margin: 0 auto;
