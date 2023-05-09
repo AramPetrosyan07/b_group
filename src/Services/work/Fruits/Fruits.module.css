@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Poppins&family=Roboto:wght@900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&display=swap");
+.peakcherGlobalDev {
+  position: relative;
+}
+
+.peakcherGlobalDev img {
+  width: 100%;
+}
+
+.peakcherDev {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.peakcherDev h1 {
+  color: #274c5b;
+  font-family: roboto;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+/* @media */
+
+@media only screen and (max-width: 1900px) {
+  .peakcherDev h1 {
+    font-size: 4vw;
+    line-height: 3vw;
+  }
+  .peakcherDev {
+    position: absolute;
+    top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .peakcherDev h1 {
+    font-size: 4vw;
+    line-height: 2vw;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .peakcherDev h1 {
+    font-size: 3vw;
+    line-height: 1.7vw;
+  }
+  .peakcherGlobalDev {
+    position: static;
+    width: 100%;
+  }
+}

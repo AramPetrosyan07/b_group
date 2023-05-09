@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Poppins&family=Roboto:ital,wght@0,500;1,900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&family=Yellowtail&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,500;1,900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&family=Yellowtail&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,500;1,900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&family=Yellowtail&display=swap");
+
+/* left */
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.leftSideGlobalDiv {
+  width: 35%;
+  margin-top: 140px;
+}
+
+.leftSideDiv {
+  width: 65%;
+  position: relative;
+  left: 60px;
+  margin-left: auto;
+}
+.leftSideDiv img {
+  right: 2px;
+  display: flex;
+  justify-content: flex-end;
+  display: -webkit-box;
+  margin-left: auto;
+  z-index: -1;
+  margin-top: 39px;
+  margin-bottom: 18px;
+}
+
+.leftSideDiv h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 29px;
+  color: #274b5a;
+  z-index: 5;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.leftSideDiv p {
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #525c60;
+  z-index: 5;
+}
+
+/* center */
+
+.centerDiv {
+  width: 50%;
+}
+.centerDiv img {
+  width: 100%;
+}
+/* right */
+.rightSideGlobalDiv {
+  width: 35%;
+  margin-top: 140px;
+}
+
+.RightSideSiv {
+  width: 65%;
+  position: relative;
+  left: -60px;
+  /* margin-left: auto; */
+}
+.RightSideSiv img {
+  right: 2px;
+  display: flex;
+  justify-content: flex-end;
+  display: -webkit-box;
+  /* margin-left: auto; */
+  z-index: -1;
+  margin-top: 39px;
+  margin-bottom: 18px;
+}
+
+.RightSideSiv h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 29px;
+  color: #274b5a;
+  z-index: 5;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.RightSideSiv p {
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525c60;
+  z-index: 5;
+}
+
+.btnDiv {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.btn {
+  margin: 0 auto;
+  text-align: center;
+  color: #335b6b;
+  border: 1px solid #335b6b;
+  width: 235px;
+  height: 100px;
+  gap: 10px;
+  background: #f9f8f8;
+  border: 2px solid #335b6b;
+  border-radius: 16px;
+  font-size: 20px;
+
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.ArrowButtom {
+  position: relative;
+  bottom: -3px;
+  left: 10px;
+  font-family: Roboto;
+  width: 19px;
+  height: 19px;
+}
+
+/* Media*/
+
+@media only screen and (max-width: 1900px) {
+  .leftSideGlobalDiv {
+    width: 35%;
+    margin-top: 8vw;
+  }
+
+  .rightSideGlobalDiv {
+    width: 35%;
+    margin-top: 8vw;
+  }
+
+  .leftSideDiv {
+    width: 100%;
+  }
+  .leftSideDiv p {
+    font-size: 1vw;
+    width: 100%;
+  }
+  .leftSideDiv h3 {
+    font-size: 1.8vw;
+  }
+  .RightSideSiv p {
+    font-size: 1vw;
+  }
+
+  .RightSideSiv h3 {
+    font-size: 1.8vw;
+  }
+  .leftSideDiv {
+    width: 80%;
+    position: none;
+    left: 60px;
+    margin-left: auto;
+  }
+  .RightSideSiv {
+    width: 80%;
+    position: none;
+    /* margin-left: auto; */
+  }
+  .centerDiv {
+    width: 60vw;
+  }
+
+  .RightSideSiv img {
+    margin-top: 2vw;
+    margin-bottom: 18px;
+  }
+
+  .leftSideDiv img {
+    margin-top: 2vw;
+  }
+  /* btn */
+  .btnDiv {
+    width: 50vh;
+    border-radius: 16px;
+    margin-top: 15px;
+  }
+  .btn {
+    width: 200px;
+    height: 100px;
+    font-size: 1.2vw;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+  }
+  .ArrowButtom {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .container {
+    flex-direction: column;
+  }
+  /* left */
+  .leftSideGlobalDiv {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+  }
+  .leftSideDiv {
+    width: 90%;
+    padding: 0 10px;
+    position: static;
+    inset: 0;
+  }
+  .leftSideDiv h3 {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 2.2vw;
+    color: #274b5a;
+    text-align: center;
+    line-height: 1px;
+    margin: 0;
+    padding-top: 25px;
+  }
+  .leftSideDiv p {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: center;
+    color: #525c60;
+    z-index: 5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal;
+    line-height: normal;
+    margin: 0;
+    width: 100%;
+  }
+  .leftSideDiv img {
+    margin: 0 auto;
+    width: 5vh;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+  /* center */
+  .centerDiv {
+    width: 50%;
+    margin: 0 auto;
+    width: 60vw;
+  }
+
+  /* right  */
+  .rightSideGlobalDiv {
+    width: 35%;
+    margin-top: 140px;
+  }
+
+  .rightSideGlobalDiv {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+  }
+  .RightSideSiv {
+    width: 65%;
+    position: static;
+    inset: 0;
+    padding: 10px;
+  }
+  .RightSideSiv h3 {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 2.3vw;
+    color: #274b5a;
+    text-align: center;
+    line-height: 1px;
+    margin: 0;
+    padding-top: 25px;
+  }
+  .RightSideSiv p {
+    font-family: "Open Sans";
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: center;
+    color: #525c60;
+    z-index: 5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal;
+    line-height: normal;
+    margin: 0;
+    width: 100%;
+  }
+  .RightSideSiv img {
+    margin: 0 auto;
+    width: 5vh;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+  /* btn */
+  .btnDiv {
+    width: 100%;
+    border-radius: 16px;
+    margin-top: 15px;
+  }
+  .btn {
+    width: 200px;
+    height: 70px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .ArrowButtom {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .leftSideGlobalDiv {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .leftSideDiv {
+    width: 60%;
+    position: static;
+    inset: 0;
+    margin: 0 auto;
+  }
+  .leftSideDiv h3 {
+    font-weight: 600;
+    font-size: 2.8vw;
+    padding-top: 15px;
+  }
+  .leftSideDiv p {
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 2vw;
+    font-weight: 200;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-top: 18px;
+  }
+  .leftSideDiv img {
+    margin: 0 auto;
+    width: 5vh;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+  }
+  .centerDiv {
+    margin: 0 auto;
+    width: 55vw;
+  }
+
+  .rightSideGlobalDiv {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .RightSideSiv {
+    width: 60%;
+    position: static;
+    inset: 0;
+  }
+  .RightSideSiv h3 {
+    font-weight: 600;
+    font-size: 2.8vw;
+    padding-top: 15px;
+  }
+  .RightSideSiv p {
+    font-family: "Open Sans";
+    font-size: 2vw;
+    font-weight: 200;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-top: 18px;
+  }
+  .RightSideSiv img {
+    margin: 0 auto;
+    width: 5vh;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+  }
+
+  /* btn */
+  .btnDiv {
+    border-radius: 3px;
+    margin-top: 3px;
+  }
+  .btn {
+    width: 25vw;
+    height: 10vw;
+    font-size: 1.9vw;
+    font-weight: 600;
+    margin-top: 5vw;
+    border-radius: 2vw;
+  }
+  .ArrowButtom {
+    width: 13px;
+    height: 13px;
+    margin-bottom: 0px;
+    inset: 0;
+    top: 0.4vw;
+    left: 2vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .btn {
+    width: 25vw;
+    height: 10vw;
+    font-size: 1.9vw;
+    font-weight: 600;
+    margin-top: 5vw;
+    border-radius: 2vw;
+  }
+  .ArrowButtom {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    inset: 0;
+    top: 0.5vw;
+    left: 2vw;
+  }
+}

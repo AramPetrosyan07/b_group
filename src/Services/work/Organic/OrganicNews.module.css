@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,500;1,900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&family=Yellowtail&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,500;0,900;1,900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&family=Yellowtail&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,500;0,900;1,900&family=Titillium+Web:ital,wght@0,200;0,900;1,300&family=Yellowtail&display=swap");
+
+.organParentDiv {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.childDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 17vh;
+  width: 500px;
+  width: 43%;
+}
+
+.childDiv p,
+button,
+h1 {
+  text-align: center;
+}
+
+.childDiv button {
+  background: none;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.childDiv h1 {
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #274c5b;
+}
+.mainP_end {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.img {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #274c5b;
+  padding-top: 25px;
+}
+.mainP {
+  font-family: "Yellowtail";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.bgImage {
+  width: 100%;
+}
+
+/* @media  1900px */
+@media only screen and (max-width: 1900px) {
+  .organParentDiv {
+    margin-top: 100px;
+  }
+  .childDiv {
+    top: 13vh;
+    width: 500px;
+    width: 43%;
+  }
+  .mainP {
+    font-size: 2vw;
+    line-height: 30px;
+  }
+  .childDiv h1 {
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .mainP_end {
+    font-size: 1.5vw;
+    font-weight: 200;
+    line-height: 35px;
+  }
+  .childDiv button img {
+    width: 8vw;
+  }
+}
+/* @media  1400px */
+@media only screen and (max-width: 1400px) {
+  .organParentDiv {
+    margin-top: 80px;
+  }
+  .childDiv {
+    top: 10vh;
+    width: 37%;
+  }
+  .mainP {
+    font-size: 1.8vw;
+    line-height: 20px;
+  }
+  .childDiv h1 {
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .mainP_end {
+    font-size: 1.9vw;
+    font-weight: 200;
+    line-height: 25px;
+  }
+  .childDiv button img {
+    width: 9vw;
+  }
+}
+/* @media 760 */
+@media only screen and (max-width: 760px) {
+  .organParentDiv {
+    margin-top: 40px;
+  }
+
+  .childDiv {
+    top: 8vh;
+    width: 80%;
+  }
+  .mainP {
+    font-size: 3vw;
+    line-height: 10px;
+  }
+  .childDiv h1 {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .mainP_end {
+    font-size: 4vw;
+    font-weight: 200;
+    line-height: 25px;
+  }
+  .childDiv button {
+    margin-top: 5px;
+  }
+  .childDiv button img {
+    width: 9vw;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  .organParentDiv {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .childDiv {
+    top: 3vh;
+    width: 50%;
+  }
+  .mainP {
+    font-size: 3vw;
+    line-height: 5px;
+  }
+  .childDiv h1 {
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  .mainP_end {
+    font-size: 2.5vw;
+    font-weight: 100;
+    line-height: 20px;
+  }
+  .childDiv button {
+    margin-top: 5px;
+  }
+  .childDiv button img {
+    width: 8vw;
+  }
+}
+@media only screen and (max-width: 382px) {
+  .childDiv {
+    top: 3vh;
+    width: 90%;
+  }
+  .mainP {
+    font-size: 3vw;
+    line-height: 5px;
+  }
+  .childDiv h1 {
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 15px;
+    padding-bottom: 1px;
+  }
+
+  .mainP_end {
+    font-size: 3vw;
+    line-height: 10px;
+  }
+  .childDiv button {
+    margin-top: 3px;
+  }
+  .childDiv button img {
+    width: 8vw;
+  }
+}
