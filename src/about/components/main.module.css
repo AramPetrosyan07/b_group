@@ -1,0 +1,10 @@
+.center {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.fullContainer {
+  background-color: white;
+  max-width: 1920px;
+}
