@@ -1,44 +1,52 @@
-.container {
-   max-width: 1400px;
-   margin: 0px auto;
-   padding: 0px 15px;
-}
-
-.first {
-   background: url(./../images/Banner\ Image.png) center/ 100% 100% no-repeat;
+.mainPicture {
    max-width: 100%;
-   margin: 0px 0px 40px 0px;
 }
-
 .title {
-
+   margin: -230px 0px 0px 0px;
+   align-self: center;
+   text-align: center;
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 800;
    font-size: 70px;
    line-height: 82px;
    color: #274C5B;
-   padding: 130px 0px;
-   margin: 0px 0px 0px 0px;
+}
 
+@media(max-width:1440px) {
+   .title {
+      padding: 50px 0px 20px 0px;
+      font-size: 55px;
+   }
+}
+
+@media(max-width:991.98px) {
+   .title {
+      padding: 80px 0px 0px 0px;
+   }
 }
 
 @media(max-width:767.98px) {
    .title {
       font-weight: 700;
-      font-size: 40px;
+      font-size: 35px;
       line-height: 67px;
       text-align: center;
+      padding: 120px 0px 0px 0px;
    }
 }
-@media(max-width:576.98px){
-   .title{
+
+@media(max-width:576.98px) {
+   .title {
       font-size: 36px;
+      padding: 140px 0px 0px 0px;
+
    }
 }
-@media(max-width:357.98px){
-   .title{
-   padding: 9px 0px 9px 120px;
-   font-size: 32px;
+
+@media(max-width:357.98px) {
+   .title {
+      padding: 140px 0px 9px 120px;
+      font-size: 32px;
    }
 }
