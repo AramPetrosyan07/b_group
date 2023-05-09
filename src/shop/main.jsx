@@ -117,7 +117,7 @@ const Main = () => {
   ];
 
   return (
-    <>
+    <div className={style.shop_page}>
       <div className={style.header}>
         <div className={style.sub_header}>
           <div className={style.logo}>
@@ -175,15 +175,12 @@ const Main = () => {
                     <span>&#9733;</span>
                   </div>
                 </div>
-              </div> 
+              </div>
             );
           })}
         </div>
       </div>
-
-     
-         
-    </>
+    </div>
   );
 };
 
