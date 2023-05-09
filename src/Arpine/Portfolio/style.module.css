@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+
+.imgBlock{
+    width: 451px;
+    height: 503px;
+    margin: 15px; 
+    position: relative;
+   
+}
+
+.imgBlock img {
+  width: 100%;
+  height: 421px;
+  border-radius: 30px;
+}
+
+.imgBlock h2 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 29px;
+  font-family: "Roboto", sans-serif;
+  color: #274c5b;
+  text-transform: capitalize;
+}
+
+.imgBlock p {
+  color: #7eb693;
+  font-family: "Yellowtail";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.popup {
+  /* display: none; */
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  height: 75%;
+  border-radius: 30px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 9;
+  transition: all 1s ease;
+}
+
+.popupInner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #7eb693;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goBtn {
+  color: #fff;
+  background-color: #7eb693;
+  border: none;
+  font-size: 30px;
+}
+
+.imgBlock:hover > .popup {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .imgBlock {
+    width: 250px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .imgBlock img {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .imgBlock {
+    width: 600px;
+    height: 700px;
+  }
+  .imgBlock img {
+    height: 80%;
+  }
+}
