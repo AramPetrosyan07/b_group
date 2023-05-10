@@ -18,12 +18,13 @@ export default function HomeHeader() {
                     <li>Projects</li>
                     <li>News</li>
                 </ul>
-                <input type={Styles.text}></input>
-                <img className={Styles.Search} src={Search} />
-                <div className={Styles.Cart}>
-                    <img src={Cart} />
-                    <span>Cart(0)</span>
-                </div>
+                    <input type={Styles.text}></input>
+                    <img className={Styles.Search} src={Search} />
+                    <div className={Styles.Cart}>
+                        <img src={Cart} />
+                        <span>Cart(0)</span>
+                    </div>
+
             </div>
 
             <div className={Styles.Banner}>

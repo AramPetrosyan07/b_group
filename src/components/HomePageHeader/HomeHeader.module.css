@@ -49,7 +49,7 @@
   align-items: center;
   flex-direction: row;
   height: 23px;
-  width: 564px;
+  width: 40%;
   left: 348px;
   top: 16px;
   border-radius: 0px;
@@ -103,8 +103,8 @@
 .Header input {
   position: relative;
   height: 46px;
-  width: 306px;
-  left: 150px;
+  width: 300px;
+  left: 100px;
   top: 5px;
   text-align: center;
   font-size: 20px;
@@ -118,7 +118,7 @@
   cursor: pointer;
   height: 40px;
   width: 40px;
-  left: -26px;
+  left: -76px;
   top: 5px;
   border-radius: 0px;
 }
@@ -130,8 +130,8 @@
   display: flex;
   flex-direction: row;
   height: 45px;
-  width: 200px;
-  left: -134px;
+  width: 30%;
+  left: -174px;
   top: 5px;
   border-radius: 33px;
   border: 1px solid #E0E0E0;
@@ -171,7 +171,7 @@
 }
 
 .BanerBackground {
-  width: 1800px;
+  width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -235,26 +235,27 @@
 }
 
 .OferrBaner {
-  position: absolute;
-  width: 1400.49px;
+  width: 100%;
   height: 367px;
-  top: 1156px;
-  left: 100px;
+  margin-top: 106px;
+  padding-left: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 36px;
 }
 
 .leftBaner {
-  position: relative;
   background-image: url(../../images/OfferBaner1.jpg);
-  width: 682.24px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
   height: 367px;
   flex: none;
   order: 0;
   flex-grow: 0;
+  border-radius: 20px;
 }
 
 .leftBaner p {
@@ -293,14 +294,15 @@
 }
 
 .rightBaner {
-  position: relative;
   background-image: url(../../images/OfferBaner2.jpg);
-  width: 682.24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40%;
   height: 367px;
-  left: 150px;
+  margin-left: 10px;
   flex: none;
-  order: 1;
-  flex-grow: 0;
+  border-radius: 20px;
 }
 
 .rightBaner p {
@@ -341,126 +343,127 @@
 
 @media screen and (max-width: 1500px) {
 
-  .BanerBackground {
-    width: 1500px;
-  }
-
-  .Cart {
-    left: -220px;
+  .logo {
+    width: 30%;
   }
 
   .OferrBaner {
     left: -90px;
   }
 
+  .Cart {
+    left: -250px;
+  }
+
   .Search {
-    left: -104px;
+    left: -184px;
   }
 
   .Header input {
-    left: 69px;
+    left: -22px;
   }
 
-  .rightBaner {
-    left: 130px;
-  }
-
-  .leftBaner {
-    left: 130px;
-  }
 }
 
 @media screen and (max-width: 1420px) {
-
-  .BanerBackground {
-    width: 1500px;
-  }
-
-  .OferrBaner {
-    left: -60px;
-  }
-
-  .Cart {
-    left: -334px;
-  }
-
-  .Search {
-    left: -210px;
+  .Header ul {
+    margin-left: -150px;
   }
 
   .Header input {
-    width: 200px;
-    left: -37px;
+    left: -12px;
   }
 
-  .rightBaner {
-    width: 600px;
-    left: 130px;
-  }
-
-  .leftBaner {
-    width: 600px;
-    left: 100px;
-  }
-
-  .Header ul {
-    position: relative;
-    top: 0px;
-    left: -100px;
+  .Cart {
+    margin-left: -10px;
   }
 
   .logo {
-    left: -10px;
+    left: -20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .Header ul {
+    position: relative;
+    width: 45%;
+    top: 0px;
+    left: -120px;
+  }
+
+  .Cart {
+    left: -370px;
+  }
+
+  .Search {
+    left: -255px;
+  }
+
+  .Header input {
+    left: -80px;
   }
 }
 
 @media screen and (max-width: 1000px) {
 
   .BanerBackground {
-    width: 1000px;
-    height: 100%;
+    width: 100%;
+  }
+
+  .BannerText {
+    width: 80%;
+  }
+
+  .BannerText span {
+    width: 100%;
+  }
+
+  .BanerBtn {
+    margin-top: 50px;
   }
 
   .Header ul {
     position: relative;
-    top: 0px;
-    left: -250px;
-    width: 500px;
+    top: 40px;
+    width: 100%;
+    left: -270px;
   }
 
   .logo {
+    top: -10px;
     left: -30px;
   }
 
   .Cart {
-    left: -550px;
+    top: -10px;
+    left: -870px;
   }
 
   .Search {
-    left: -475px;
+    top: -10px;
+    left: -765px;
   }
 
   .Header input {
-    width: 100px;
-    left: -250px;
+    top: -10px;
+    left: -590px;
   }
 
   .OferrBaner {
-    left: -30px;
+    margin-left: -100px;
   }
 
-  .rightBaner {
-    width: 400px;
+  .BannerText {
+    font-size: 10px;
+    left: 20px;
+    top: 250px;
   }
 
-  .leftBaner {
-    width: 400px;
-  }
 }
 
 @media screen and (max-width: 500px) {
   .BanerBackground {
-    width: 500px;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -486,70 +489,9 @@
     left: -50px;
   }
 
-  .Header ul {
-    left: -400px;
-    position: relative;
-    top: 40px;
-    width: 500px;
-  }
-
-  .Cart {
-    top: -10px;
-    left: -1050px;
-  }
-
-  .Search {
-    top: -10px;
-    left: -974px;
-  }
-
-  .Header input {
-    width: 200px;
-    top: -10px;
-    left: -800px;
-  }
-
-  .rightBaner {
-    left: -350px;
-    top: -300px;
-  }
-
-  .leftBaner {
-    top: 150px;
-    left: 90px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .BanerBackground {
-    width: 500px;
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(/src/images/Banner.jpg);
-  }
-
-  .BannerText {
-    font-size: 10px;
-    left: 20px;
-    top: 250px;
-  }
-
-  .BannerText span {
-    width: 200px;
-    font-size: 30px;
-  }
-
-  .logo {
-    width: 100px;
-    height: 30px;
-    top: -10px;
-    left: -50px;
-  }
 
   .Header ul {
-    left: -400px;
+    left: -270px;
     position: relative;
     top: 40px;
     width: 450px;
@@ -557,27 +499,35 @@
 
   .Cart {
     top: -10px;
-    left: -1020px;
+    left: -890px;
+    width: 150px;
   }
 
   .Search {
     top: -10px;
-    left: -900px;
+    left: -774px;
   }
 
   .Header input {
     width: 200px;
     top: -10px;
-    left: -725px;
+    left: -600px;
+  }
+
+  .OferrBaner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .rightBaner {
-    left: -350px;
-    top: -300px;
+    width: 100%;
+    padding-right: 50px;
   }
 
   .leftBaner {
-    top: 150px;
-    left: 90px;
+    width: 100%;
   }
 }
