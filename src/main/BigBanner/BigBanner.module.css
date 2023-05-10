@@ -1,7 +1,9 @@
 .bigBanner {
    position: relative;
 }
-
+.bigBanner__img {
+   width: 100%;
+}
 .caption {
    position: absolute;
    top: 0;

@@ -1,7 +1,7 @@
 import React from "react";
-import { BigBanner } from "../components/BigBanner/BigBanner";
-import { PageCaption } from "../components/PageCaption/PageCaption.js";
-import { ExpertsList } from "../components/ExpertsList/ExpertsList.js";
+import { BigBanner } from "../BigBanner/BigBanner";
+import { PageCaption } from "../PageCaption/PageCaption.js";
+import { ExpertsList } from "../ExpertsList/ExpertsList.js";
 
 export const Team = ({ team }) => {
    return (
