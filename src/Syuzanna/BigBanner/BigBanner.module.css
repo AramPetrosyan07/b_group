@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bigBanner {
    position: relative;
 }
@@ -26,3 +27,33 @@
       font-size: 3rem;
    }
 }
+=======
+.bigBanner {
+   position: relative;
+}
+.bigBanner__img {
+   width: 100%;
+}
+.caption {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 4.3rem;
+   line-height: 120%;
+   color: #274c5b;
+}
+
+@media screen and (max-width: 768px) {
+   .caption {
+      font-size: 3rem;
+   }
+}
+>>>>>>> 8ae874e41347bb5a1784c6eb4bca06142ebfa810
