@@ -1,8 +1,8 @@
 import React from "react";
-import { data } from "./database.js";
-import "./main/styles/reset.css";
-import "./main/styles/main.css";
-import { Team } from "./main/pages/Team.js";
+import { data } from "./Syuzanna/database.js";
+import "./Syuzanna/styles/reset.css";
+import "./Syuzanna/styles/main.css";
+import { Team } from "./Syuzanna/pages/Team.js";
 
 
 const { team } = data.pages;

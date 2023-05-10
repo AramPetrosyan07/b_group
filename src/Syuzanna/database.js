@@ -1,9 +1,9 @@
-import expert_1__img from "./main/img/team/team_img-1.jpg"
-import expert_2__img from "./main/img/team/team_img-2.jpg"
-import expert_3__img from "./main/img/team/team_img-3.jpg"
-import expert_4__img from "./main/img/team/team_img-4.jpg"
-import expert_5__img from "./main/img/team/team_img-5.jpg"
-import expert_6__img from "./main/img/team/team_img-6.jpg"
+import expert_1__img from "./img/team/team_img-1.jpg"
+import expert_2__img from "./img/team/team_img-2.jpg"
+import expert_3__img from "./img/team/team_img-3.jpg"
+import expert_4__img from "./img/team/team_img-4.jpg"
+import expert_5__img from "./img/team/team_img-5.jpg"
+import expert_6__img from "./img/team/team_img-6.jpg"
 
 export const data = {
    pages: {
