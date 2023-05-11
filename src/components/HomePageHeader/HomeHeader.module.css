@@ -24,7 +24,7 @@
 }
 
 .Header {
-  width: 100%;
+  max-width: 1920px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -162,7 +162,7 @@
 
 .Banner {
   height: 858px;
-  width: 100%;
+  max-width: 1920px;
   left: 0px;
   top: 204px;
   padding-top: 20px;
@@ -235,7 +235,7 @@
 }
 
 .OferrBaner {
-  width: 100%;
+  max-width: 1920px;
   height: 367px;
   margin-top: 106px;
   padding-left: 200px;
