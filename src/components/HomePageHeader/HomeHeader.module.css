@@ -176,7 +176,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/src/images/Banner.jpg);
+  background-image: url(/src/components/images/Banner.jpg);
 }
 
 .BannerText {
@@ -230,7 +230,7 @@
   left: 0px;
   border-radius: 16px;
   top: 305px;
-  background-image: url(../../images/Button.svg);
+  background-image: url(../../components/images/Button.svg);
 
 }
 
@@ -246,7 +246,7 @@
 }
 
 .leftBaner {
-  background-image: url(../../images/OfferBaner1.jpg);
+  background-image: url(../../components/images/OfferBaner1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -294,7 +294,7 @@
 }
 
 .rightBaner {
-  background-image: url(../../images/OfferBaner2.jpg);
+  background-image: url(../../components/images/OfferBaner2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -468,7 +468,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/src/images/Banner.jpg);
+    background-image: url(/src/components/images/Banner.jpg);
   }
 
   .BannerText {

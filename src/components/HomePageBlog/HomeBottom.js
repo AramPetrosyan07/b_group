@@ -1,7 +1,5 @@
-import Arrow from '../../images/Arrow.svg';
-import Blog1 from '../../images/BlogPhoto1.jpg';
-import Blog2 from '../../images/BlogPhoto2.jpg';
-import admin from '../../images/AdminVect.svg';
+import Arrow from '../../components/images/Arrow.svg';
+import admin from '../../components/images/AdminVect.svg';
 import styles from './HomeBottom.module.css';
 
 export default function HomeBottom() {
