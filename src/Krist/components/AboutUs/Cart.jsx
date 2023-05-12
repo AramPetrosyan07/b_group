@@ -17,7 +17,7 @@ const Cart = ({ id, typeFood, img, name, pastPrice, newPrice, rating }) => {
           </div>
           <hr />
           <div className={style.OurProducts_Price_wrapper}>
-            <div className="OurProducts_Price_flex">
+            <div className={style.OurProducts_Price_flex}>
               <span className={style.OurProducts_Price_Past}>{pastPrice}</span>
               <span className={style.OurProducts_Price_Now}>{newPrice}</span>
             </div>

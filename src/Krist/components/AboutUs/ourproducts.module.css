@@ -3,6 +3,7 @@
 .OurProducts {
   min-height: 200px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   display: grid;
   gap: 15px;
@@ -67,7 +68,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  max-width: 300px;
+  max-width: 270px;
   min-height: 453px;
   background: #fcfafa;
   border: 1px solid rgb(234, 228, 228);
@@ -127,6 +128,7 @@
 }
 .OurProducts_Price_wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -175,6 +177,18 @@
   margin-top: 70px;
 }
 
+@media screen and (max-width: 270px) {
+  .OurProducts_Price_flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 250px) {
+  .typeFood {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 200px) {
   .error_wrapper {
     font-size: 35px;
@@ -188,17 +202,12 @@
     flex-direction: column;
     align-items: center;
   }
-  .typeFood {
-    font-size: 14px;
-  }
+
   .OurProducts_Title {
     margin: 0px;
   }
   .OurProducts_btn_LoadMore {
     margin: 0;
-  }
-  .OurProducts {
-    min-height: 100px;
   }
 
   .OurProducts_Info > img {

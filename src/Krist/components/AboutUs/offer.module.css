@@ -80,6 +80,8 @@
 }
 
 .offer {
+  display: flex;
+  justify-content: center;
   background: #274c5b;
   padding: 70px;
   max-width: 1920px;
@@ -89,4 +91,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 380px) {
+  .offer_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .offer_title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: normal;
+    color: #ffffff;
+  }
 }

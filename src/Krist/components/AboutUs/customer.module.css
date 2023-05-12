@@ -71,7 +71,7 @@
   flex-direction: column;
 }
 .OurProducts_statistics_block {
-  max-width: 201px;
+  width: 201px;
   min-height: 181px;
   border: 5px solid #7eb693;
   display: flex;
@@ -111,6 +111,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  max-width: 100%;
   padding-bottom: 120px;
 }
 
@@ -118,7 +119,11 @@
   .OurProducts_statistics_block {
     border-radius: 15px;
     padding: 0;
-    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    min-height: 181px;
   }
   .OurProducts_subTitle {
     font-size: 20px;
