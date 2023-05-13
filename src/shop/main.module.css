@@ -264,7 +264,12 @@ input::placeholder {
   display: none;
   font-size: 40px;
 }
+@media (max-width: 1920px){
+  .banner {
+  width: 700px
 
+  }
+}
 @media (max-width: 1400px) {
   .sub_header {
     width: 90%;
