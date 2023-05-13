@@ -1,11 +1,11 @@
-import HomePage from './components/Home';
+import HomePage from "./HomePage/Home";
 
 function App() {
-    return (
-        <div className="App">
-            <HomePage/>
-        </div>
-    );
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
