@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.content {
+  max-width: 1920px;
+}
+
+.About_Us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.About {
+  background: #f9f8f8;
+  max-width: 1920px;
+}
+
+.About_Us_Block_One {
+  max-width: 650px;
+}
+
+.About_Us_Block_One > img {
+  width: 100%;
+}
+
+.AboutUs_items_One {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 30px 0 30px 0;
+}
+
+.AboutUs {
+  max-width: 117.83px;
+  min-height: 49px;
+  font-family: "Yellowtail", cursive;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 49px;
+  color: #7eb693;
+}
+
+.AboutUs_title {
+  max-width: 702px;
+  margin-bottom: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+
+  color: #274c5b;
+}
+
+.AboutUs_text {
+  max-width: 690px;
+  min-height: 90px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #525c60;
+}
+
+.AboutUs_items_Titile {
+  max-width: 220px;
+  min-height: 29px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #274c5b;
+}
+
+.AboutUs_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.About_Us_Block_Two {
+  max-width: 650px;
+  min-height: 462px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.AboutUs_items {
+  max-width: 500px;
+}
+.AboutUs_btn > button {
+  min-height: 65px;
+  align-items: center;
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  border-radius: 0.15em;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  background: #274c5b;
+  font-size: 18px;
+  cursor: pointer;
+
+  border-radius: 12px;
+}
+
+.AboutUs_btn > button:active {
+  top: 0.1em;
+}
+@media screen and (max-width: 750px) {
+  .About_Us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .AboutUs_items_One {
+    flex-direction: column;
+  }
+  .AboutUs_btn {
+    min-height: 10px;
+  }
+  .AboutUs_btn > button {
+    max-width: 86px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .AboutUs_title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 120px) {
+  .AboutUs_title {
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 30em) {
+  .AboutUs_btn > button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}

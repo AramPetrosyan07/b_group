@@ -10,10 +10,12 @@ import Services from "./Services/work/Services";
 import StyleGuide from "./style guide/StyleGuide/styleGuide.jsx";
 import ServiceSingle from "./service single/Main";
 import HomePage from "./HomePage/Home";
+import "./App.css";
+import Leyout from "./Leyout";
 
 function App() {
   return (
-    <>
+    <Leyout>
       <Routes>
         <Route index element={<ShopSingle />} /> {/*  Veronika */}
         <Route path="/Shop" element={<Shop />} /> {/*  Haykanush */}
@@ -23,9 +25,9 @@ function App() {
         <Route path="/StyleGuide" element={<StyleGuide />} /> {/*  Harut */}
         <Route path="/ServiceSingle" element={<ServiceSingle />} />
         {/*  Serine */}
-        <Route path="/HomePage" element={<HomePage />} /> {/*  Apet */}
+        <Route path="/HomePage" element={<HomePage />} /> {/*  Apet, Krist */}
       </Routes>
-    </>
+    </Leyout>
   );
 }
 export default App;

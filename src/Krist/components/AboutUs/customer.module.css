@@ -1,0 +1,138 @@
+.wrapperBlock {
+  background: url('/public/assets/Background_right.png') no-repeat center/cover;
+  max-width: 1920px;
+}
+
+.customer_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 125px;
+  min-height: 156px;
+}
+
+.customer_photo > img {
+  width: 100%;
+  border-radius: 50%;
+}
+.customer_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 780px;
+  min-height: 170px;
+  text-align: center;
+}
+
+.customer_text > p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  /* or 30px */
+
+  text-align: center;
+
+  color: #525c60;
+}
+
+.customer_name {
+  max-width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #274c5b;
+}
+
+.customer_consumer {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 165.4%;
+  /* identical to box height, or 25px */
+
+  color: #525c60;
+}
+
+.switching:hover {
+  cursor: pointer;
+}
+
+.dots {
+  margin: 50px 0;
+}
+.OurProducts_statistics_amount {
+  display: flex;
+  flex-direction: column;
+}
+.OurProducts_statistics_block {
+  width: 201px;
+  min-height: 181px;
+  border: 5px solid #7eb693;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.procent {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #274c5b;
+}
+
+.procentName {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 165.4%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #274c5b;
+}
+
+.OurProducts_statistics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 200px) {
+  .OurProducts_statistics_block {
+    border-radius: 15px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    min-height: 181px;
+  }
+  .OurProducts_subTitle {
+    font-size: 20px;
+  }
+
+  .procent {
+    font-size: 30px;
+  }
+  .OurProducts_statistics {
+    margin: 0 auto;
+  }
+}
