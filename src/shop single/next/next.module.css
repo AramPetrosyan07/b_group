@@ -1,0 +1,189 @@
+.productsContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #f9f8f8;
+   gap: 15px;
+}
+
+.productFooter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-top: 1px solid #DEDDDD;
+   
+}
+@media(max-width:576.98px){
+   .productFooter{
+      padding: 0px 0px 0px 40px;
+   }
+}
+
+.stars {
+   display: flex;
+   justify-content: space-between;
+}
+
+.pricing {
+   display: flex;
+   align-items: center;
+   align-items: center;
+}
+
+
+.deletedPrice {
+   text-decoration: line-through;
+   margin-right: 9px;
+}
+@media(max-width:1440px){
+   .deletedPrice{
+      margin: 0px 10px 0px 30px;
+   }
+}
+.productItem {
+   position: relative;
+   flex: 0 1 20%;
+   min-height: 483px;
+   background: #FFFFFF;
+   border-radius: 30px;
+   padding: 55px 24px;
+   margin: 0px 10px 0px 0px;
+
+}
+@media(max-width:767.98px){
+   .productItem{
+      flex: 0 1 16%;
+      margin: 30px 0px 0px 50px;
+   }
+}
+@media(max-width:357.98px){
+.productItem{
+   margin: 0px 0px 0px 120px;
+}
+}
+.productItem img{
+   width: 100%;
+   height: auto;
+}
+.bananner {
+   position: relative;
+   bottom: 40px;
+   padding: 0px 0px 0px 0px;
+}
+.productTitle {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: start;
+   color: #274C5B;
+   margin-left: 5px;
+}
+@media(max-width:576.98px){
+   .productTitle{
+      padding: 0px 0px 0px 0px;
+   }
+}
+.productTitleBanan {
+   margin-top: -141px;
+   position: relative;
+   padding: 20px 0px 0px 0px;
+}
+
+.title {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 50px;
+   line-height: 59px;
+   text-align: center;
+   color: #274C5B;
+}
+
+@media(max-width:767.98px) {
+   .title {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 30px;
+      text-align: center;
+      color: #274C5B;
+      padding: 40px 0px 0px 0px;
+   }
+}
+
+@media(max-width:576.98px) {
+   .title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #274C5B;
+      margin: 80px 0px 50px 70px;
+      
+   }
+}
+@media(max-width:357.98px){
+   .title{
+      text-align: start;
+      margin: 70px 0px 40px 175px;
+   }
+}
+.category {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   color: #FFFFFF;
+   background: #274C5B;
+   border-radius: 8px;
+   padding: 9px 12px;
+   align-items: center;
+   text-align: center;
+   width: 72px;
+   height: 20px;
+}
+
+.image {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: center;
+   color: #274C5B;
+
+}
+
+.pricing {
+   margin-left: -18%;
+}
+.deletedPrice {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+   color: #B8B8B8;
+}
+
+.price {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #274C5B;
+}
+
+.star {
+   color: #FFA858;
+}
+
+.price {
+   margin-right: 81px;
+}

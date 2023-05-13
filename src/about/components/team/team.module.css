@@ -1,0 +1,244 @@
+.container {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 72%;
+  margin-top: 177px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.greenText {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #7eb693;
+}
+
+.title {
+  margin-top: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+}
+
+.text {
+  max-width: 892px;
+  margin-top: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+}
+
+.picturesContainer {
+  width: 100%;
+  /* margin-top: 40px; */
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pictureItem {
+  margin-top: 40px;
+  background: #f9f8f8;
+  border-radius: 30px;
+}
+
+.pictureItem > img {
+  position: relative;
+  /* top: -50px; */
+  border-radius: 30px 30px 0px 0px;
+}
+
+.pictureTextContainer {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 30px 30px;
+  /* overflow: hidden; */
+  transition: 0.4s all;
+}
+
+.pictureItem:hover > .pictureTextContainer {
+  background: #ffffff;
+  box-shadow: 0px 29px 44px rgba(150, 150, 150, 0.25);
+}
+
+.pictureTextContent {
+  width: 86%;
+}
+
+.picturesTextAndIcons {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personName {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+}
+
+.personProfession {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #7eb693;
+}
+
+.socialIcons > img:not(:last-child) {
+  margin-right: 16px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .content {
+    width: 80%;
+    margin-top: 40px;
+  }
+
+  .textContainer {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .greenText {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 2vw;
+    color: #7eb693;
+  }
+
+  .title {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+
+  .text {
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    line-height: 1.9vw;
+    color: #525c60;
+  }
+
+  .picturesContainer {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .pictureItem {
+    width: 300px;
+    margin-top: 40px;
+    background: #f9f8f8;
+    border-radius: 2vw;
+  }
+
+  .pictureItem > img {
+    width: 100%;
+    position: relative;
+    border-radius: 2vw 2vw 0px 0px;
+  }
+
+  .pictureTextContainer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 2vw 2vw;
+    /* overflow: hidden; */
+    transition: 0.4s all;
+  }
+
+  .pictureItem:hover > .pictureTextContainer {
+    background: #ffffff;
+    box-shadow: 0px 29px 44px rgba(150, 150, 150, 0.25);
+  }
+
+  .pictureTextContent {
+    width: 86%;
+  }
+
+  .picturesTextAndIcons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .personName {
+    font-size: 22px;
+    color: #274c5b;
+  }
+
+  .personProfession {
+    font-size: 18px;
+    color: #7eb693;
+  }
+
+  .socialIcons > img:not(:last-child) {
+    margin-right: 14px;
+  }
+  .socialIcons > img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .firstContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .greenText {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 2vw;
+    color: #7eb693;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
+  .text {
+    margin: 0 auto;
+    margin-top: 1vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    color: #525c60;
+  }
+}
