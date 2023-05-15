@@ -1,8 +1,8 @@
 import style from './header.module.css';
-import PagedownVector from "../assets/Vector.png";
-import OrganicLogo from "../assets/organicLogo.png";
-import SearchLogo from "../assets/search.png";
-import BoxLogo from "../assets/box.png";
+import PagedownVector from "./images/Vector.png";
+import OrganicLogo from "./images/organicLogo.png";
+import SearchLogo from "./images/search.png";
+import BoxLogo from "./images/box.png";
 
 
 
