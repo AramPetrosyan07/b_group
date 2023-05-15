@@ -3,3 +3,405 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Roboto";
+  /* src: url(../font/Roboto-Bold.ttf); */
+  src: url(../Header/font/Roboto-Bold.ttf);
+}
+
+.container {
+  position: relative;
+}
+.organicContainer {
+  width: 166px;
+}
+.navbar {
+  position: relative;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  padding: 0px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  width: 564px;
+  height: 23px;
+  position: relative;
+  padding-left: 150px;
+}
+
+.menu ul li a {
+  font: 16px Roboto;
+  color: #274c5b;
+
+  text-decoration: none;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+.menu ul li > a:nth-child(3) {
+}
+.menu ul li img {
+  width: 6px;
+  height: 3px;
+}
+.menu ul li {
+  display: flex;
+  align-items: center;
+}
+
+.humburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.humburger > span {
+  width: 30px;
+  position: absolute;
+  left: 5px;
+  height: 3px;
+  background-color: black;
+  display: inline-block;
+}
+
+.humburger > span:first-child {
+  top: 12px;
+}
+
+.humburger > span:nth-child(2) {
+  top: 18px;
+}
+
+.humburger > span:nth-child(3) {
+  top: 24px;
+}
+
+.humburger:hover span:nth-child(2) {
+  display: none;
+}
+
+.humburger:hover span:nth-child(1) {
+  top: 19px;
+  left: 14px;
+  transform: rotate(45deg);
+}
+
+.humburger:hover span:nth-child(3) {
+  top: 20px;
+  left: 13px;
+  transform: rotate(-45deg);
+}
+.searchField {
+  position: relative;
+  width: 376px;
+  background: #fafafa;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 115px;
+}
+
+input {
+  width: 70%;
+  border: none;
+  outline: none;
+  height: 50px;
+  background: #fafafa;
+  border-radius: 33px;
+  border-color: #fafafa;
+  margin-left: 5px;
+}
+
+.search {
+  display: flex;
+  position: relative;
+}
+.searchLogo {
+  background: #7eb693;
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  position: relative;
+}
+.searchLogo img {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+}
+
+.boxField {
+  position: relative;
+  width: 159px;
+  height: 66px;
+  border: 1px solid #e0e0e0;
+  border-radius: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24px;
+}
+.boxLogo {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  background: #274c5b;
+}
+.boxLogo img {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+}
+.cart {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #274c5b;
+  margin-right: 5px;
+}
+@media (min-width: 280px) and (max-width: 391px) {
+  .menu ul {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+    height: 80px;
+  }
+  .menu {
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .humburger {
+    display: block;
+    margin-top: 10px;
+  }
+  .searchField {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+  }
+  .searchLogo {
+    background: #7eb693;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+  }
+  .organicContainer {
+    padding-left: 60px;
+  }
+  .searchLogo img {
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+  }
+  .organicContainer img {
+    width: 80px;
+  }
+  input {
+    display: none;
+  }
+  .boxField {
+    width: 30px;
+    height: 30px;
+    margin-right: 70px;
+  }
+  .boxLogo {
+    width: 30px;
+    height: 30px;
+  }
+  .boxLogo img {
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+  }
+  .cart {
+    display: none;
+  }
+  .menu ul {
+    display: none;
+  }
+  .search {
+    margin-right: 50px;
+  }
+  .humburger > span {
+    width: 20px;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 578px) {
+  .menu ul {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+    height: 100px;
+  }
+  .container {
+    width: 100%;
+  }
+  .humburger {
+    display: block;
+  }
+  .searchField {
+    width: 70px;
+    height: 30px;
+    margin-left: 30px;
+  }
+  .searchLogo {
+    background: #7eb693;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+  }
+  .searchLogo img {
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+  }
+  .organicContainer {
+    padding-left: 60px;
+  }
+  .organicContainer img {
+    width: 100px;
+  }
+  input {
+    display: none;
+  }
+  .boxField {
+    width: 50px;
+    height: 30px;
+    margin-right: 50px;
+  }
+  .boxLogo {
+    width: 30px;
+    height: 30px;
+  }
+  .boxLogo img {
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+  }
+  .cart {
+    display: none;
+  }
+  .menu ul {
+    display: none;
+  }
+  .search {
+    margin-right: 50px;
+  }
+}
+@media (min-width: 1940px) {
+  .navbar {
+    width: 1920px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1320px) and (max-width: 1430px) {
+  .searchField {
+    width: 250px;
+  }
+  .boxField {
+    width: 120px;
+  }
+
+  .humburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    cursor: pointer;
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1320px) {
+  .searchField {
+    width: 56px;
+  }
+  .searchLogo {
+  }
+  input {
+    display: none;
+  }
+  .boxField {
+    width: 56px;
+    height: 56px;
+  }
+  .cart {
+    display: none;
+  }
+
+  .humburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    cursor: pointer;
+    display: none;
+  }
+}
+@media (min-width: 578px) and (max-width: 1000px) {
+  .searchField {
+    width: 56px;
+  }
+  .searchLogo {
+  }
+  input {
+    display: none;
+  }
+  .boxField {
+    width: 56px;
+    height: 56px;
+  }
+  .cart {
+    display: none;
+  }
+  .menu ul {
+    display: none;
+  }
+  .search {
+    margin-right: 100px;
+  }
+  .humburger {
+    display: block;
+    margin-top: 10px;
+    height: 100%;
+  }
+  .humburger > span {
+    width: 40px;
+  }
+}
