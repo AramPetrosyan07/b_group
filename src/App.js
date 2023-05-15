@@ -1,6 +1,5 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
-
 import "./service single/App.module.css";
 import About from "./about/components/Main";
 import ShopSingle from "./shop single/Main";
